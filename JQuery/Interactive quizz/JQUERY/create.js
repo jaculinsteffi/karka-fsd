@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $("#name").click(function(){
+        console.log($("#name").val())
+    })
+    $("#email").click(function(){
+        console.log($("#email").val())
+    })
+    $("#username").click(function(){
+        console.log($("#username").val())
+    })
+    $("#password").click(function(){
+        console.log($("#password").val())
+    })
+    $("#reenter").click(function(){
+        console.log($("#reenter").val())
+    })
+})

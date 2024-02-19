@@ -63,7 +63,7 @@ border-radius: 5px;
 .box1 p{
     text-align: center;
 }
-.create button{
+#create button{
     height: 40px;
     width: 460px;
     margin: 15px;
