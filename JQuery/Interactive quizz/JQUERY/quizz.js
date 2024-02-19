@@ -2,8 +2,6 @@ $(document).ready(function(){
     $("#email").click(function(){
         console.log($("#email").val())
     })
-})
-$(document).ready(function(){
     $("#password").click(function(){
         console.log($("#password").val())
     })
