@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/quizz.css">
-    <link rel="stylesheet" href="../JQUERY/quizz.js">
+    <!-- <link rel="stylesheet" href="../JQUERY/quizz.js"> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
 </head>
 <body>
-    <div class="page1">
+    <div id="page1">
         <div class="box">
             <h2>Interactive Quizz</h2>
         </div>
@@ -28,18 +28,19 @@
             <div class="forgot">
                 <a href="">forgot password?</a>
             </div>
-            <div class="login">
+            <div id="login">
                 <a href=""><button>Login</button></a>
             </div>
             <p>
                 or
             </p>
-            <div id="create">
-               <a href=""> <button>create an account</button></a>
+            <div >
+               <button id="create">create an account</button>
             </div>
+            
         </div>
     </div>
-    <div class="page2">
+    <div id="page2">
         <div>
         <label for="text">Name</label>
         <input type="text" placeholder="enter your name" id="name">
@@ -63,7 +64,68 @@
         <div>
             <button id="submit">Submit</button>
         </div>
+        <p id="alert" style="display: none;"></p>
     </div>
+    <form id="page3">
+        <h2>Categories</h2>
+        <input type="radio"  name="categories" id="sports">
+        <label for="sports">Sports</label><br>
+        <input type="radio" name="categories" id="agriculture">
+        <label for="agriculture">Agriculture</label><br>
+        <input type="radio" name="categories" id="space">
+        <label for="space">Space</label><br>
+        <input type="radio" name="categories" id="world">
+        <label for="world">World</label><br>
+        <input type="radio" name="categories" id="underwater">
+        <label for="underwater">Underwater</label>
+    </form>
+    <form id="sportsquestion">
+        <div class="question">
+            <p>1.Waca cricket ground is located in</p>
+        </div>
+        <div class="options">
+            <label><input type="radio" name="question1" value="Adelaide">Adelaide</label>
+            <label><input type="radio" name="question1" value="Perth">Perth</label>
+            <label><input type="radio" name="question1" value="Auckland">Auckland</label>
+            <label><input type="radio" name="question1" value="Durban">Durban</label>
+        </div>
+        <div class="question">
+            <p>2.Who Won 10th Italian open title 2021</p>
+        </div>
+        <div class="options">
+            <label><input type="radio" name="question2" value="Novak Djokovic">Novak Djokovic</label>
+            <label><input type="radio" name="question2" value="Rafael Nadal">Rafael Nadal</label>
+            <label><input type="radio" name="question2" value="Dominic Thiem">Dominic Thiem</label>
+            <label><input type="radio" name="question2" value="Stefanos Tsitsipas">Stefanos Tsitsipas</label>
+        </div>
+        <div class="question">
+            <p>3.FIFA is the global regulatory body of which sports</p>
+        </div>
+        <div class="options">
+            <label><input type="radio" name="question3" value="Hockey">Hockey</label>
+            <label><input type="radio" name="question3" value="Football">Football</label>
+            <label><input type="radio" name="question3" value="Cricket">Cricket</label>
+            <label><input type="radio" name="question3" value="Tennis">Tennis</label>
+        </div>
+        <div class="question">
+            <p>4.Who was the first Indian Woman to get an Olympic medal?</p>
+        </div>
+        <div class="options">
+            <label><input type="radio" name="question4" value="P.T. Usha">P.T. Usha</label>
+            <label><input type="radio" name="question4" value="Sania Mirza">Sania Mirza</label>
+            <label><input type="radio" name="question4" value="Aarti Saha">Aarti Saha</label>
+            <label><input type="radio" name="question4" value="Karnam Malleswari">Karnam Malleswari</label>
+        </div>
+        <div class="question">
+            <p>5.What is the full form of IPL?</p>
+        </div>
+        <div class="options">
+            <label><input type="radio" name="question5" value="Indian Premier League">Indian Premier League</label>
+            <label><input type="radio" name="question5" value="Indo-Pakistan League">Indo-Pakistan League</label>
+            <label><input type="radio" name="question5" value="International Premier League">International Premier League</label>
+            <label><input type="radio" name="question5" value="Indian Players League">Indian Players League</label>
+        </div>
+        <button id="check">Check answers</button>
     
 </body>
      <script src="../JQUERY/quizz.js">
