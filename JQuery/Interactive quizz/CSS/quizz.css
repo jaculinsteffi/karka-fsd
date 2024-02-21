@@ -99,3 +99,9 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 #check{
     margin: 10px;
 }
+.correct{
+    color: lightgreen;
+}
+.wrong{
+    color: red;
+}
