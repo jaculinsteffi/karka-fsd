@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/quizz.css">
     <!-- <link rel="stylesheet" href="../JQUERY/quizz.js"> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
+
 <body>
     <div id="page1">
         <div class="box">
@@ -34,42 +38,44 @@
             <p>
                 or
             </p>
-            <div >
-               <button id="create">create an account</button>
+            <div>
+                <button id="create">create an account</button>
             </div>
-            
+
         </div>
     </div>
     <div id="page2">
+        <h1 style="padding-left: 180px;">Register</h1>
+        <div class="page2nd">
         <div>
-        <label for="text">Name</label>
-        <input type="text" placeholder="enter your name" id="name">
+            
+            <input type="text" placeholder="enter your name" id="name">
         </div>
         <div>
-            <label for="text">Username</label>
+            
             <input type="text" placeholder="username" id="username">
-            </div>
-        <div>
-            <label for="text">Email</label>
-            <input type="text" placeholder="enter your email" id="emailid">
         </div>
         <div>
-            <label for="text">Password</label>
+            
+            <input type="email" placeholder="enter your email" id="emailid">
+        </div>
+        <div>
+            
             <input type="password" placeholder="enter your password" id="typepassword">
         </div>
         <div>
-            <label for="text">Re-Enter Password</label>
-            <input type="password" placeholder="enter your password" id="reenter">
+           
+            <input type="password" placeholder="Reenter your password" id="reenter">
         </div>
         <div>
-            <button id="submit">Submit</button>
+            <button id="submitButton">Submit</button>
         </div>
-    
-        <p id="alert" style="display: none;"></p>
+
+        <p id="alert" style="display: none;"></p></div>
     </div>
     <form id="page3">
-        <h2>Categories</h2>
-        <input type="radio"  name="categories" id="sports">
+        <h1>Categories</h1>
+        <input type="radio" name="categories" id="sports">
         <label for="sports">Sports</label><br>
         <input type="radio" name="categories" id="agriculture">
         <label for="agriculture">Agriculture</label><br>
@@ -81,201 +87,218 @@
         <label for="underwater">Underwater</label>
     </form>
     <form id="sportsquestion">
-        <div class="question">
-            <p>1.WACA cricket ground is located in</p>
+        <div id="sport">
+            <h1 style="text-align: center;">Sports</h1>
+            <div class="question">
+                <p>1.WACA cricket ground is located in</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+                <input type="radio" name="question1" value="Adelaide">
+                <label>Adelaide</label>
+
+                <input type="radio" name="question1" value="Perth">
+                <label>Perth</label>
+
+                <input type="radio" name="question1" value="Auckland">
+                <label>Auckland</label>
+
+                <input type="radio" name="question1" value="Durban">
+                <label>Durban</label>
+            </div>
+            <div class="correct1" style="display: none;color:darkcyan;margin-top: 10px;">Answer: Perth</div>
+            <div class="question">
+                <p>2.Who Won 10th Italian open title 2021</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question2" value="Novak Djokovic">
+                <label>Novak Djokovic</label>
+
+                <input type="radio" name="question2" value="Rafael Nadal">
+                <label>Rafael Nadal</label>
+                <input type="radio" name="question2" value="Dominic Thiem">
+                <label>Dominic Thiem</label>
+
+                <input type="radio" name="question2" value="Stefanos Tsitsipas">
+                <label>Stefanos Tsitsipas</label>
+            </div>
+            <div class="correct1" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Rafael Nadal</div>
+            <div class="question">
+                <p>3.FIFA is the global regulatory body of which sports</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question3" value="Hockey">
+                <label>Hockey</label>
+
+                <input type="radio" name="question3" value="Football">
+                <label>Football</label>
+
+                <input type="radio" name="question3" value="Cricket">
+                <label>Cricket</label>
+
+                <input type="radio" name="question3" value="Tennis">
+                <label>Tennis</label>
+            </div>
+            <div class="correct1" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Football</div>
+            <div class="question">
+                <p>4.Who was the first Indian Woman to get an Olympic medal?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question4" value="P.T. Usha">
+                <label>P.T. Usha</label>
+
+                <input type="radio" name="question4" value="Sania Mirza">
+                <label>Sania Mirza</label>
+
+                <input type="radio" name="question4" value="Aarti Saha">
+                <label>Aarti Saha</label>
+
+                <input type="radio" name="question4" value="Karnam Malleswari">
+                <label>Karnam Malleswari</label>
+            </div>
+            <div class="correct1" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Karnam Malleswari
+            </div>
+            <div class="question">
+                <p>5.Which country has won the most FIFA World Cup titles?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question5" value="Brazil">
+                <label>Brazil</label>
+
+                <input type="radio" name="question5" value="Germany">
+                <label>Germany</label>
+
+                <input type="radio" name="question5" value="Argentina">
+                <label>Argentina</label>
+
+                <input type="radio" name="question5" value="Italy">
+                <label>Italy</label>
+            </div>
+            <div class="correct1" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Brazil</div>
+            <button id="check"
+                style="background-color: aqua;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Check</button><span><button
+                    id="back"
+                    style="margin-left: 400px; background-color: aqua;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Back</button></span>
         </div>
-        <div class="options" style="margin-top: 10px;">
-            <input type="radio" name="question1" value="Adelaide">
-            <label>Adelaide</label>
-           
-            <input type="radio" name="question1" value="Perth">
-            <label>Perth</label>
-            
-            <input type="radio" name="question1" value="Auckland">
-            <label>Auckland</label>
-            
-            <input type="radio" name="question1" value="Durban">
-            <label>Durban</label>
-        </div>
-        <div class="correct1" style="display: none;color:darkcyan;margin-top: 10px;">Answer: Perth</div>
-        <div class="question">
-            <p>2.Who Won 10th Italian open title 2021</p>
-        </div>
-        <div class="options" style="margin-top: 10px;"> 
-            
-            <input type="radio" name="question2" value="Novak Djokovic">
-            <label>Novak Djokovic</label>
-            
-            <input type="radio" name="question2" value="Rafael Nadal">
-            <label>Rafael Nadal</label>
-            <input type="radio" name="question2" value="Dominic Thiem">
-            <label>Dominic Thiem</label>
-            
-            <input type="radio" name="question2" value="Stefanos Tsitsipas">
-            <label>Stefanos Tsitsipas</label>
-        </div>
-        <div class="correct1" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Rafael Nadal</div>
-        <div class="question">
-            <p>3.FIFA is the global regulatory body of which sports</p>
-        </div>
-        <div class="options" style="margin-top: 10px;">
-            
-            <input type="radio" name="question3" value="Hockey">
-            <label>Hockey</label>
-            
-            <input type="radio" name="question3" value="Football">
-            <label>Football</label>
-            
-            <input type="radio" name="question3" value="Cricket">
-            <label>Cricket</label>
-            
-            <input type="radio" name="question3" value="Tennis">
-            <label>Tennis</label>
-        </div>
-        <div class="correct1" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Football</div>
-        <div class="question">
-            <p>4.Who was the first Indian Woman to get an Olympic medal?</p>
-        </div>
-        <div class="options" style="margin-top: 10px;">
-            
-            <input type="radio" name="question4" value="P.T. Usha">
-            <label>P.T. Usha</label>
-            
-            <input type="radio" name="question4" value="Sania Mirza">
-            <label>Sania Mirza</label>
-            
-            <input type="radio" name="question4" value="Aarti Saha">
-            <label>Aarti Saha</label>
-            
-            <input type="radio" name="question4" value="Karnam Malleswari">
-            <label>Karnam Malleswari</label>
-        </div>
-        <div class="correct1" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Karnam Malleswari</div>
-        <div class="question">
-            <p>5.What is the full form of IPL?</p>
-        </div>
-        <div class="options" style="margin-top: 10px;">
-            
-            <input type="radio" name="question5" value="Indian Premier League">
-            <label>Indian Premier League</label>
-            
-            <input type="radio" name="question5" value="Indo-Pakistan League">
-            <label>Indo-Pakistan League</label>
-            
-            <input type="radio" name="question5" value="International Premier League">
-            <label>International Premier League</label>
-            
-            <input type="radio" name="question5" value="Indian Players League">
-            <label>Indian Players League</label>
-        </div>
-        <div class="correct1" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Indian Premier League</div>
-        <button id="check" style="background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Check answers</button><span><button id="back" style="margin-left: 400px; background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Back</button></span>
     </form>
     <form id="agriquestion">
-        <div class="question">
-            <p>1.What is the process by which green plants use sunlight to synthesize foods from carbon dioxide and water?</p>
+        <div id="agri">
+            <div class="question">
+                <p>1.What is the process by which green plants use sunlight to synthesize foods from carbon dioxide and
+                    water?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+                <input type="radio" name="question1" value="Respiration">
+                <label>Respiration</label>
+
+                <input type="radio" name="question1" value=" Germination">
+                <label> Germination</label>
+
+                <input type="radio" name="question1" value="Photosynthesis">
+                <label>Photosynthesis</label>
+
+                <input type="radio" name="question1" value="Photosynthesis">
+                <label>Photosynthesis</label>
+            </div>
+            <div class="correct2" style="display: none;color:darkcyan;margin-top: 10px;">Answer: Photosynthesis</div>
+            <div class="question">
+                <p>2.Which gas do plants primarily absorb during photosynthesis?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question2" value="Oxygen (O2)">
+                <label>Oxygen (O2)</label>
+
+                <input type="radio" name="question2" value="Nitrogen (N2)">
+                <label>Nitrogen (N2)</label>
+                <input type="radio" name="question2" value="Carbon dioxide (CO2)">
+                <label>Carbon dioxide (CO2)</label>
+
+                <input type="radio" name="question2" value="Methane (CH4)">
+                <label>Methane (CH4)</label>
+            </div>
+            <div class="correct2" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Carbon dioxide (CO2)
+            </div>
+            <div class="question">
+                <p>3.What is the term for the practice of rotating crops in a specific order over several seasons to
+                    improve soil health and reduce pests and diseases?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question3" value="Monoculture">
+                <label>Monoculture</label>
+
+                <input type="radio" name="question3" value="Polyculture">
+                <label>Polyculture</label>
+
+                <input type="radio" name="question3" value="Crop diversification">
+                <label>Crop diversification</label>
+
+                <input type="radio" name="question3" value="Crop rotation">
+                <label>Crop rotation</label>
+            </div>
+            <div class="correct2" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Crop rotation</div>
+            <div class="question">
+                <p>4.Which type of farming involves the cultivation of crops or the raising of animals for food or other
+                    products without the use of synthetic pesticides, herbicides, or fertilizers?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question4" value="Conventional farming">
+                <label>Conventional farming</label>
+
+                <input type="radio" name="question4" value="Industrial farming">
+                <label>Industrial farming</label>
+
+                <input type="radio" name="question4" value="Organic farming">
+                <label>Organic farming</label>
+
+                <input type="radio" name="question4" value="Intensive farming">
+                <label>Intensive farming</label>
+            </div>
+            <div class="correct2" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Organic farming</div>
+            <div class="question">
+                <p>5.What is the name for the method of irrigation that involves the direct application of water to the
+                    roots of plants, typically through buried hoses or pipes?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question5" value="Sprinkler irrigation">
+                <label>Sprinkler irrigation</label>
+
+                <input type="radio" name="question5" value="Flood irrigation">
+                <label>Flood irrigation</label>
+
+                <input type="radio" name="question5" value="Drip irrigation">
+                <label>Drip irrigation</label>
+
+                <input type="radio" name="question5" value="Surface irrigation">
+                <label>Surface irrigation</label>
+            </div>
+            <div class="correct2" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Drip irrigation</div>
+            <button id="check1"
+                style="background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Check</button><span><button id="back1"
+                    style="margin-left: 400px; background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Back</button></span>
         </div>
-        <div class="options" style="margin-top: 10px;">
-            <input type="radio" name="question1" value="Respiration">
-            <label>Respiration</label>
-           
-            <input type="radio" name="question1" value=" Germination">
-            <label> Germination</label>
-            
-            <input type="radio" name="question1" value="Photosynthesis">
-            <label>Photosynthesis</label>
-            
-            <input type="radio" name="question1" value="Photosynthesis">
-            <label>Photosynthesis</label>
-        </div>
-        <div class="correct2" style="display: none;color:darkcyan;margin-top: 10px;">Answer: Photosynthesis</div>
-        <div class="question">
-            <p>2.Which gas do plants primarily absorb during photosynthesis?</p>
-        </div>
-        <div class="options" style="margin-top: 10px;"> 
-            
-            <input type="radio" name="question2" value="Oxygen (O2)">
-            <label>Oxygen (O2)</label>
-            
-            <input type="radio" name="question2" value="Nitrogen (N2)">
-            <label>Nitrogen (N2)</label>
-            <input type="radio" name="question2" value="Carbon dioxide (CO2)">
-            <label>Carbon dioxide (CO2)</label>
-            
-            <input type="radio" name="question2" value="Methane (CH4)">
-            <label>Methane (CH4)</label>
-        </div>
-        <div class="correct2" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Carbon dioxide (CO2)</div>
-        <div class="question">
-            <p>3.What is the term for the practice of rotating crops in a specific order over several seasons to improve soil health and reduce pests and diseases?</p>
-        </div>
-        <div class="options" style="margin-top: 10px;">
-            
-            <input type="radio" name="question3" value="Monoculture">
-            <label>Monoculture</label>
-            
-            <input type="radio" name="question3" value="Polyculture">
-            <label>Polyculture</label>
-            
-            <input type="radio" name="question3" value="Crop diversification">
-            <label>Crop diversification</label>
-            
-            <input type="radio" name="question3" value="Crop rotation">
-            <label>Crop rotation</label>
-        </div>
-        <div class="correct2" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Crop rotation</div>
-        <div class="question">
-            <p>4.Which type of farming involves the cultivation of crops or the raising of animals for food or other products without the use of synthetic pesticides, herbicides, or fertilizers?</p>
-        </div>
-        <div class="options" style="margin-top: 10px;">
-            
-            <input type="radio" name="question4" value="Conventional farming">
-            <label>Conventional farming</label>
-            
-            <input type="radio" name="question4" value="Industrial farming">
-            <label>Industrial farming</label>
-            
-            <input type="radio" name="question4" value="Organic farming">
-            <label>Organic farming</label>
-            
-            <input type="radio" name="question4" value="Intensive farming">
-            <label>Intensive farming</label>
-        </div>
-        <div class="correct2" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Organic farming</div>
-        <div class="question">
-            <p>5.What is the name for the method of irrigation that involves the direct application of water to the roots of plants, typically through buried hoses or pipes?</p>
-        </div>
-        <div class="options" style="margin-top: 10px;">
-            
-            <input type="radio" name="question5" value="Sprinkler irrigation">
-            <label>Sprinkler irrigation</label>
-            
-            <input type="radio" name="question5" value="Flood irrigation">
-            <label>Flood irrigation</label>
-            
-            <input type="radio" name="question5" value="Drip irrigation">
-            <label>Drip irrigation</label>
-            
-            <input type="radio" name="question5" value="Surface irrigation">
-            <label>Surface irrigation</label>
-        </div>
-        <div class="correct2" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Drip irrigation</div>
-        <button id="check1" style="background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Check answers</button><span><button id="back1" style="margin-left: 400px; background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Back</button></span>
-        </form>
-        <form id="spacequestion">
+    </form>
+    <form id="spacequestion">
+        <div id="spaceq">
             <div class="question">
                 <p>1.Which planet is known as the "Red Planet"?</p>
             </div>
             <div class="options" style="margin-top: 10px;">
                 <input type="radio" name="question1" value="Venus">
                 <label>Venus</label>
-               
+
                 <input type="radio" name="question1" value="Mars">
                 <label>Mars</label>
-                
+
                 <input type="radio" name="question1" value="Jupiter">
                 <label>Jupiter</label>
-                
+
                 <input type="radio" name="question1" value="Saturn">
                 <label>Saturn</label>
             </div>
@@ -283,16 +306,16 @@
             <div class="question">
                 <p>2.What is the name of the largest moon of Saturn??</p>
             </div>
-            <div class="options" style="margin-top: 10px;"> 
-                
+            <div class="options" style="margin-top: 10px;">
+
                 <input type="radio" name="question2" value="Europa">
                 <label>Europa</label>
-                
+
                 <input type="radio" name="question2" value="Titan">
                 <label>Titan</label>
                 <input type="radio" name="question2" value="Ganymede">
                 <label>Ganymede</label>
-                
+
                 <input type="radio" name="question2" value=" Io">
                 <label> Io</label>
             </div>
@@ -301,16 +324,16 @@
                 <p>3.Who was the first human to step on the surface of the Moon?</p>
             </div>
             <div class="options" style="margin-top: 10px;">
-                
+
                 <input type="radio" name="question3" value="Yuri Gagarin">
                 <label>Yuri Gagarin</label>
-                
+
                 <input type="radio" name="question3" value="Neil Armstrong">
                 <label>Neil Armstrong</label>
-                
+
                 <input type="radio" name="question3" value="Buzz Aldrin">
                 <label>Buzz Aldrin</label>
-                
+
                 <input type="radio" name="question3" value="Alan Shepard">
                 <label>Alan Shepard</label>
             </div>
@@ -319,222 +342,243 @@
                 <p>4.What is the name of the most powerful space telescope launched by NASA in 1990?</p>
             </div>
             <div class="options" style="margin-top: 10px;">
-                
+
                 <input type="radio" name="question4" value=" Kepler Space Telescope">
                 <label> Kepler Space Telescope</label>
-                
+
                 <input type="radio" name="question4" value="Hubble Space Telescope">
                 <label>Hubble Space Telescope</label>
-                
+
                 <input type="radio" name="question4" value="James Webb Space Telescope">
                 <label>James Webb Space Telescope</label>
-                
+
                 <input type="radio" name="question4" value="Chandra X-ray Observatory">
                 <label>Chandra X-ray Observatory</label>
             </div>
-            <div class="correct3" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Hubble Space Telescope</div>
+            <div class="correct3" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Hubble Space Telescope
+            </div>
             <div class="question">
-                <p>5.Which space probe became the first to visit Pluto, providing close-up images of the dwarf planet?</p>
+                <p>5.Which space probe became the first to visit Pluto, providing close-up images of the dwarf planet?
+                </p>
             </div>
             <div class="options" style="margin-top: 10px;">
-                
+
                 <input type="radio" name="question5" value="Voyager 1">
                 <label>Voyager 1</label>
-                
+
                 <input type="radio" name="question5" value="New Horizons">
                 <label>New Horizons</label>
-                
+
                 <input type="radio" name="question5" value="Cassini-Huygens">
                 <label>Cassini-Huygens</label>
-                
+
                 <input type="radio" name="question5" value="Juno">
                 <label>Juno</label>
             </div>
             <div class="correct3" style="display: none;color: darkcyan;margin-top: 10px;">Answer:New Horizons</div>
-            <button id="check2" style="background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Check answers</button><span><button id="back2" style="margin-left: 400px; background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Back</button></span>
-            </form>
-            <form id="worldquestion">
-                <div class="question">
-                    <p>1.Which is the largest ocean on Earth?</p>
-                </div>
-                <div class="options" style="margin-top: 10px;">
-                    <input type="radio" name="question1" value="Atlantic Ocean">
-                    <label>Atlantic Ocean</label>
-                   
-                    <input type="radio" name="question1" value="Indian Ocean">
-                    <label>Indian Ocean</label>
-                    
-                    <input type="radio" name="question1" value="Pacific Ocean">
-                    <label>Pacific Ocean</label>
-                    
-                    <input type="radio" name="question1" value="Arctic Ocean">
-                    <label>Arctic Ocean</label>
-                </div>
-                <div class="correct4" style="display: none;color:darkcyan;margin-top: 10px;">Answer:Pacific Ocean</div>
-                <div class="question">
-                    <p>2.What is the capital city of Australia?</p>
-                </div>
-                <div class="options" style="margin-top: 10px;"> 
-                    
-                    <input type="radio" name="question2" value="Sydney">
-                    <label>Sydney</label>
-                    
-                    <input type="radio" name="question2" value="Melbourne">
-                    <label>Melbourne</label>
-                    <input type="radio" name="question2" value="Canberra">
-                    <label>Canberra</label>
-                    
-                    <input type="radio" name="question2" value="Brisbane">
-                    <label>Brisbane</label>
-                </div>
-                <div class="correct4" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Canberra</div>
-                <div class="question">
-                    <p>3.Which country is the largest by land area?</p>
-                </div>
-                <div class="options" style="margin-top: 10px;">
-                    
-                    <input type="radio" name="question3" value="China">
-                    <label>China</label>
-                    
-                    <input type="radio" name="question3" value="United States">
-                    <label>United States</label>
-                    
-                    <input type="radio" name="question3" value="Russia">
-                    <label>Russia</label>
-                    
-                    <input type="radio" name="question3" value="Canada">
-                    <label>Canada</label>
-                </div>
-                <div class="correct4" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Russia</div>
-                <div class="question">
-                    <p>4.Which river is the longest in the world?</p>
-                </div>
-                <div class="options" style="margin-top: 10px;">
-                    
-                    <input type="radio" name="question4" value="Amazon River">
-                    <label>Amazon River</label>
-                    
-                    <input type="radio" name="question4" value="Nile River">
-                    <label>Nile River</label>
-                    
-                    <input type="radio" name="question4" value="Yangtze River">
-                    <label>Yangtze River</label>
-                    
-                    <input type="radio" name="question4" value="Mississippi River">
-                    <label>Mississippi River</label>
-                </div>
-                <div class="correct4" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Nile River</div>
-                <div class="question">
-                    <p>5.Which mountain range is the highest in the world?</p>
-                </div>
-                <div class="options" style="margin-top: 10px;">
-                    
-                    <input type="radio" name="question5" value="Andes">
-                    <label>Andes</label>
-                    
-                    <input type="radio" name="question5" value="Rocky Mountains">
-                    <label>Rocky Mountains</label>
-                    
-                    <input type="radio" name="question5" value="Himalayas">
-                    <label>Himalayas</label>
-                    
-                    <input type="radio" name="question5" value="Alps">
-                    <label>Alps</label>
-                </div>
-                <div class="correct4" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Himalayas</div>
-                <button id="check3" style="background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Check answers</button><span><button id="back3" style="margin-left: 400px; background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Back</button></span>
-                </form>
-                <form id="underwaterquestion">
-                    <div class="question">
-                        <p>1.What is the largest living structure on Earth, located off the northeast coast of Australia?</p>
+            <button id="check2"
+                style="background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Check
+                </button><span><button id="back2"
+                    style="margin-left: 400px; background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Back</button></span>
+        </div>
+    </form>
+    <form id="worldquestion">
+        <div id="worldq">
+            <div class="question">
+                <p>1.Which is the largest ocean on Earth?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+                <input type="radio" name="question1" value="Atlantic Ocean">
+                <label>Atlantic Ocean</label>
+
+                <input type="radio" name="question1" value="Indian Ocean">
+                <label>Indian Ocean</label>
+
+                <input type="radio" name="question1" value="Pacific Ocean">
+                <label>Pacific Ocean</label>
+
+                <input type="radio" name="question1" value="Arctic Ocean">
+                <label>Arctic Ocean</label>
+            </div>
+            <div class="correct4" style="display: none;color:darkcyan;margin-top: 10px;">Answer:Pacific Ocean</div>
+            <div class="question">
+                <p>2.What is the capital city of Australia?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question2" value="Sydney">
+                <label>Sydney</label>
+
+                <input type="radio" name="question2" value="Melbourne">
+                <label>Melbourne</label>
+                <input type="radio" name="question2" value="Canberra">
+                <label>Canberra</label>
+
+                <input type="radio" name="question2" value="Brisbane">
+                <label>Brisbane</label>
+            </div>
+            <div class="correct4" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Canberra</div>
+            <div class="question">
+                <p>3.Which country is the largest by land area?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question3" value="China">
+                <label>China</label>
+
+                <input type="radio" name="question3" value="United States">
+                <label>United States</label>
+
+                <input type="radio" name="question3" value="Russia">
+                <label>Russia</label>
+
+                <input type="radio" name="question3" value="Canada">
+                <label>Canada</label>
+            </div>
+            <div class="correct4" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Russia</div>
+            <div class="question">
+                <p>4.Which river is the longest in the world?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question4" value="Amazon River">
+                <label>Amazon River</label>
+
+                <input type="radio" name="question4" value="Nile River">
+                <label>Nile River</label>
+
+                <input type="radio" name="question4" value="Yangtze River">
+                <label>Yangtze River</label>
+
+                <input type="radio" name="question4" value="Mississippi River">
+                <label>Mississippi River</label>
+            </div>
+            <div class="correct4" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Nile River</div>
+            <div class="question">
+                <p>5.Which mountain range is the highest in the world?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question5" value="Andes">
+                <label>Andes</label>
+
+                <input type="radio" name="question5" value="Rocky Mountains">
+                <label>Rocky Mountains</label>
+
+                <input type="radio" name="question5" value="Himalayas">
+                <label>Himalayas</label>
+
+                <input type="radio" name="question5" value="Alps">
+                <label>Alps</label>
+            </div>
+            <div class="correct4" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Himalayas</div>
+            <button id="check3"
+                style="background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Check
+                </button><span><button id="back3"
+                    style="margin-left: 400px; background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Back</button></span>
+        </div>
+    </form>
+    <form id="underwaterquestion">
+        <div id="under">
+            <div class="question">
+                <p>1.What is the largest living structure on Earth, located off the northeast coast of Australia?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+                <input type="radio" name="question1" value="Great Barrier Reef">
+                <label>Great Barrier Reef</label>
+
+                <input type="radio" name="question1" value="Belize Barrier Reef">
+                <label>Belize Barrier Reef</label>
+
+                <input type="radio" name="question1" value="Coral Trianglen">
+                <label>Coral Triangle</label>
+
+                <input type="radio" name="question1" value="Red Sea Coral Reef">
+                <label>Red Sea Coral Reef</label>
+            </div>
+            <div class="correct5" style="display: none;color:darkcyan;margin-top: 10px;">Answer:Great Barrier Reef</div>
+            <div class="question">
+                <p>2.Which is the deepest known part of Earth's oceans?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question2" value="Mariana Trench">
+                <label>Mariana Trench</label>
+
+                <input type="radio" name="question2" value="Puerto Rico Trench">
+                <label>Puerto Rico Trench</label>
+                <input type="radio" name="question2" value="Tonga Trench">
+                <label>Tonga Trench</label>
+
+                <input type="radio" name="question2" value="Java Trench
                     </div>
-                    <div class="options" style="margin-top: 10px;">
-                        <input type="radio" name="question1" value="Great Barrier Reef">
-                        <label>Great Barrier Reef</label>
-                       
-                        <input type="radio" name="question1" value="Belize Barrier Reef">
-                        <label>Belize Barrier Reef</label>
-                        
-                        <input type="radio" name="question1" value="Coral Trianglen">
-                        <label>Coral Triangle</label>
-                        
-                        <input type="radio" name="question1" value="Red Sea Coral Reef">
-                        <label>Red Sea Coral Reef</label>
-                    </div>
-                    <div class="correct5" style="display: none;color:darkcyan;margin-top: 10px;">Answer:Great Barrier Reef</div>
-                    <div class="question">
-                        <p>2.Which is the deepest known part of Earth's oceans?</p>
-                    </div>
-                    <div class="options" style="margin-top: 10px;"> 
-                        
-                        <input type="radio" name="question2" value="Mariana Trench">
-                        <label>Mariana Trench</label>
-                        
-                        <input type="radio" name="question2" value="Puerto Rico Trench">
-                        <label>Puerto Rico Trench</label>
-                        <input type="radio" name="question2" value="Tonga Trench">
-                        <label>Tonga Trench</label>
-                        
-                        <input type="radio" name="question2" value="Java Trench
-                    </div>
-                    <div class="correct5" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Mariana Trench</div>
-                    <div class="question">
-                        <p>3.Which country is the largest by land area?Which species of shark is known as the "gentle giant" and is the largest fish in the ocean?</p>
-                    </div>
-                    <div class="options" style="margin-top: 10px;">
-                        
-                        <input type="radio" name="question3" value="Hammerhead Shark">
-                        <label>Hammerhead Shark</label>
-                        
-                        <input type="radio" name="question3" value="Whale Shark">
-                        <label>Whale Shark</label>
-                        
-                        <input type="radio" name="question3" value="Great White Shark">
-                        <label>Great White Shark</label>
-                        
-                        <input type="radio" name="question3" value="Tiger Shark">
-                        <label>Tiger Shark</label>
-                    </div>
-                    <div class="correct5" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Whale Shark</div>
-                    <div class="question">
-                        <p>4.What is the term for the process by which aquatic plants and algae produce oxygen during daylight hours?</p>
-                    </div>
-                    <div class="options" style="margin-top: 10px;">
-                        
-                        <input type="radio" name="question4" value="Photosynthesis">
-                        <label>Photosynthesis</label>
-                        
-                        <input type="radio" name="question4" value="Respiration">
-                        <label>onRespirati</label>
-                        
-                        <input type="radio" name="question4" value="Bioluminescence">
-                        <label>Bioluminescence</label>
-                        
-                        <input type="radio" name="question4" value="Decomposition">
-                        <label>Decomposition</label>
-                    </div>
-                    <div class="correct5" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Photosynthesis</div>
-                    <div class="question">
-                        <p>5.Which of the following is not a type of marine habitat?</p>
-                    </div>
-                    <div class="options" style="margin-top: 10px;">
-                        
-                        <input type="radio" name="question5" value="Coral reef">
-                        <label>Coral reef</label>
-                        
-                        <input type="radio" name="question5" value="Mangrove forest">
-                        <label>Mangrove forest</label>
-                        
-                        <input type="radio" name="question5" value="Tundra">
-                        <label>Tundra</label>
-                        
-                        <input type="radio" name="question5" value="Kelp forest">
-                        <label>Kelp forest</label>
-                    </div>
-                    <div class="correct5" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Tundra</div>
-                    <button id="check4" style="background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Check answers</button><span><button id="back4" style="margin-left: 400px; background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Back</button></span>
-                    </form>
+                    <div class=" correct5" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Mariana
+                Trench
+            </div>
+            <div class="question">
+                <p>3.Which country is the largest by land area?Which species of shark is known as the "gentle giant" and
+                    is the largest fish in the ocean?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question3" value="Hammerhead Shark">
+                <label>Hammerhead Shark</label>
+
+                <input type="radio" name="question3" value="Whale Shark">
+                <label>Whale Shark</label>
+
+                <input type="radio" name="question3" value="Great White Shark">
+                <label>Great White Shark</label>
+
+                <input type="radio" name="question3" value="Tiger Shark">
+                <label>Tiger Shark</label>
+            </div>
+            <div class="correct5" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Whale Shark</div>
+            <div class="question">
+                <p>4.What is the term for the process by which aquatic plants and algae produce oxygen during daylight
+                    hours?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question4" value="Photosynthesis">
+                <label>Photosynthesis</label>
+
+                <input type="radio" name="question4" value="Respiration">
+                <label>onRespirati</label>
+
+                <input type="radio" name="question4" value="Bioluminescence">
+                <label>Bioluminescence</label>
+
+                <input type="radio" name="question4" value="Decomposition">
+                <label>Decomposition</label>
+            </div>
+            <div class="correct5" style="display: none;color: darkcyan;margin-top: 10px;">Answer: Photosynthesis</div>
+            <div class="question">
+                <p>5.Which of the following is not a type of marine habitat?</p>
+            </div>
+            <div class="options" style="margin-top: 10px;">
+
+                <input type="radio" name="question5" value="Coral reef">
+                <label>Coral reef</label>
+
+                <input type="radio" name="question5" value="Mangrove forest">
+                <label>Mangrove forest</label>
+
+                <input type="radio" name="question5" value="Tundra">
+                <label>Tundra</label>
+
+                <input type="radio" name="question5" value="Kelp forest">
+                <label>Kelp forest</label>
+            </div>
+            <div class="correct5" style="display: none;color: darkcyan;margin-top: 10px;">Answer:Tundra</div>
+            <button id="check4"
+                style="background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Check
+                </button><span><button id="back4"
+                    style="margin-left: 400px; background-color: skyblue;border: none;border-radius: 20px;height: 40px;width: 80px;font-size: 15px;">Back</button></span>
+        </div>
+    </form>
 </body>
-     <script src="../JQUERY/quizz.js">
-     </script>
+<script src="../JQUERY/quizz.js">
+</script>
+
 </html>

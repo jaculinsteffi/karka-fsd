@@ -1,6 +1,6 @@
 $(document).ready(function(){
     let empty = []
-    $("#submit").click(function(){
+    $("#submitButton").click(function(){
         let a = $("#username").val()
         let b = $("#typepassword").val()
         let c = $("#reenter").val()
@@ -112,7 +112,7 @@ $(document).ready(function () {
             question2: "Rafael Nadal", 
             question3: "Football", 
             question4: "Karnam Malleswari", 
-            question5: "Indian Premier League" 
+            question5: "Brazil" 
         }
     
     var score = 0;
@@ -122,7 +122,7 @@ $(document).ready(function () {
         var correctAnswer = correctAnswers[question];
         if (userAnswer.length > 0) {
             if (userAnswer.val() === correctAnswer) {
-                score++;
+                score++;   
                 $('input[value="' + correctAnswer + '"]').next('label').addClass("correct"); 
             } else {
                 userAnswer.next('label').addClass("wrong"); 
