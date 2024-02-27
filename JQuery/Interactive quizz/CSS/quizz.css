@@ -104,4 +104,21 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
 }
 .wrong{
     color: red;
+    
+}
+#agriquestion{
+    display: none;
+    padding: 20px;
+}
+#spacequestion{
+    display: none;
+    padding: 20px;
+}
+#worldquestion{
+    display: none;
+    padding: 20px;
+}
+#underwaterquestion{
+    display: none;
+    padding: 20px;
 }
