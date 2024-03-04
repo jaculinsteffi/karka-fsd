@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../task/task.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+    <form id="page1">
+        <div id="name">
+            <label for="firstname" id="username">Name:</label>
+            <input type="text" placeholder="enter your name" id="firstname">
+        </div>
+        <div id="pass">
+            <label for="password" id="passLogin">Password:</label>
+            <input type="password" placeholder="enter your password" id="password">
+        </div>
+        <div id="dob"> 
+            <label for="date" >DOB:</label>
+            <input type="date" id="date"> 
+        </div>
+        <div id="gender" >
+            <label >Gender:</label>
+            <label for="male">male</label>
+            <input type="radio" id="male" value="male" name="gender">
+            <label for="female">female</label>
+            <input type="radio" id="female" value="female" name="gender">
+            <label for="others">others</label>
+            <input type="radio" id="others" value="others" name="gender">
+        </div>
+        <div id="education">
+            <label >Education:</label>
+            <input type="checkbox" id="engineering" value="engineering" name="education">
+            <label for="engineering">Engineering</label>
+            <input type="checkbox" id="masterdegree" value="masterdegree" name="education">
+            <label for="masterdegree">Master degree</label>
+            <input type="checkbox" id="phd" value="phd" name="education">
+            <label for="phd">Phd</label>
+        </div>
+        <div id="place1">
+            <label >Place</label>
+            <select name="place" id="place">
+                <option value="Nagercoil">Nagercoil</option>
+                <option value="tirunelveli">Tirunelveli</option>
+                <option value="marthandam">Marthandam</option>
+            </select>
+           
+        </div>
+        <button id="submit">Submit</button>
+    </form>
+    
+</body>
+<script src="../task/task.js"></script>
+</html>

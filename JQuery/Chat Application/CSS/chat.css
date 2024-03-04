@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#chatapp{
+    background: rgb(63,94,251);
+    background: linear-gradient(344deg, rgba(63,94,251,1) 0%, rgba(70,252,219,1) 100%);
+    text-align: center;
+    height: 100vh;
+    color: white;
+   
+}
+#login{
+    height: 500px;
+    width: 500px;
+    margin-left: 380px;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
+    background: transparent;
+    color: white;
+}
+.form-floating label{
+    margin-left: 40px;
+    /* color: white; */
+    /* background: transparent; */
+}
+#floatingInput{
+    margin-left: 35px;
+    background: transparent;
+    width: 430px;
+    
+   
+}
+#floatingPassword{
+    margin-left: 35px;
+    background: transparent;
+    width: 430px;
+   
+}
+#loginform a{
+    text-decoration: none;
+
+}
+#loginButton{
+    height:60px ;
+    width:430px ;
+    margin-top: 20px;
+    /* margin-right: 100px; */
+    background-color: rgb(244, 244, 244) ;
+    border: none;
+    border-radius: 10px; 
+    /* color: white; */
+    
+}
+#loginButton:hover{
+    /* background-color: #0D6EFD; */
+    background: transparent;
+    border: solid #0d6dfd48;
+    
+}
+#create{
+    height:60px ;
+    width:430px ;
+    margin-top: 10px;
+    /* margin-right: 100px; */
+    background: transparent;
+
+    border-radius: 10px; 
+    color: white;
+    
+}
+#create:hover{
+    background-color: rgb(244, 244, 244) ;
+    color: black;
+}
+#loginform p{
+    margin-top: 10px;
+}
+.modal-body{
+    color: black;
+}
+
+#page2{
+    display: none;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5%;
+    /* backdrop-filter: blur(10px); */
+    
+    
+    
+
+}
+#head{
+   padding-left: 20px;
+   font-style: italic;
+   text-align: center;
+}
+#section{
+    height: 100vh;
+    border: 1px solid black;
+    overflow-y: scroll;
+    border-radius: 10px;
+    /* border: none; */
+    /* background-color: rgba(46, 203, 203, 0.509); */
+    /* position: relative; */
+    /* float: right; */    
+   
+}
+.main{
+    float: right;
+    display: flex;
+    /* background-color: rgba(70,252,219,1);  */
+    border-radius: 20px; 
+}
+.icons{
+    margin-right: 5px;
+    color:rgb(63,94,251);
+   
+}
+#text{
+    
+    background-color: rgba(70,252,219,1);
+    border-radius: 10px;
+    
+    
+}
+#msgbox{
+    float: left;
+    width: 85%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: aquamarine;
+    border: none;
+    
+    
+}
+#icon{
+    width: 15%;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgba(128, 128, 128, 0.521);
+    border: none;
+    
+}
+

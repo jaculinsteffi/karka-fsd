@@ -15,6 +15,7 @@ $(document).ready(function(){
             console.log(empty)
 
             $("#page1").css("display","block")
+            $("#page2").css("display","none")
         }
         else{
             alert("password do not match")
