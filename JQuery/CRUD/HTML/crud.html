@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/crud.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+    <label for="name">Name:</label>
+    <input type="text" placeholder="enter your name" id="name">
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" placeholder="enter your email" id="email">
+    <br>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" placeholder="enter password" id="password">
+    <br>
+    <br>
+    <div id="gender">
+    <label for="gender" >Gender:</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="others" value="others">
+    <label for="others">Others</label>
+    </div>
+    <br>
+    <br>
+    <label for="text">Place</label>
+    <select name="dropdown" id="place">
+        <option value="nagercoil" id="nagercoil">Nagercoil</option>
+        <option value="tirunelveli" id="tirunelveli">Tirunelveli</option>
+        <option value="marthandam" id="marthandam">Marthandam</option>
+    </select>
+    <br><br>
+    <div id="skills">
+    <label >Skills:</label>
+    <input type="checkbox" name="skills" id="html" value="html">
+    <label for="html">HTML</label>
+    <input type="checkbox" name="skills" id="css" value="css">
+    <label for="css">CSS</label>
+    <input type="checkbox" name="skills" id="java" value="java">
+    <label for="java">JAVA</label>
+    <input type="checkbox" name="skills" id="python" value="python">
+    <label for="python">Python</label>
+    </div>
+    <br><br>
+    <button id="submit">Submit</button>
+    <br><br><br>
+    <table border="1" id="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Gender</th>
+                <th>Skills</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    </div>
+    </div>
+</body>
+<script src="../JQUERY/crud.js"></script>
+</html>

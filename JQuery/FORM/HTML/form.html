@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/form.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email">
+    <br>
+    <br>
+    <label for="number">Phone No:</label>
+    <input type="text" id="number">
+    <br><br>
+    <label for="address">Address:</label>
+    <input type="text" id="address">
+    <br><br>
+    <label for="objectives">Objectives:</label>
+    <textarea name="objectives" id="objectives" cols="30" rows="5"></textarea>
+    <br><br>
+    <div id="skills">
+    <h3>Skills</h3>
+    <input type="checkbox" id="html" name="skills" value="html">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css" name="skills" value="css">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="jquery" name="skills" value="jquery">
+    <label for="jquery">JQUERY</label>
+</div>
+    <br><br>
+    <label for="hobbies">Hobbies:</label>
+    <input type="text" id="hobbies">
+    <br>
+    <br>
+    <h3>Education</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Institute</th>
+                <th>Year</th>
+                <th>Mark in percentage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><input type="text" placeholder="enter your name" id="name1"></td>
+                <td><input type="text" placeholder="institute name" id="institute1"></td>
+                <td><input type="text" placeholder="year of passing" id="year1"></td>
+                <td><input type="text" placeholder="marks in %" id="mark1"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><input type="text" placeholder="enter your name" id="name2"></td>
+                <td><input type="text" placeholder="institute name" id="institute2"></td>
+                <td><input type="text" placeholder="year of passing" id="year2"></td>
+                <td><input type="text" placeholder="marks in %" id="mark2"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><input type="text" placeholder="enter your name" id="name3"></td>
+                <td><input type="text" placeholder="institute name" id="institute3"></td>
+                <td><input type="text" placeholder="year of passing" id="year3"></td>
+                <td><input type="text" placeholder="marks in %" id="mark3"></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <h3>Personal Details</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Father Name</th>
+                <td><input type="text" placeholder="Father Name" id="fathername"></td>
+            </tr>
+            <tr>
+                <th>Mother Name</th>
+                <td><input type="text" placeholder="Mother Name" id="mothername"></td>
+            </tr>
+            <tr>
+                <th>Sibiling Name</th>
+                <td><input type="text" placeholder="Sibiling Name" id="sibilingname"></td>
+            </tr>
+            <tr>
+                <th>Marital Status</th>
+                <td><input type="text" placeholder="Marital status" id="maritalstatus"></td>
+            </tr>
+        </thead>
+    </table>
+    <br>
+    <button id="submitbutton">Submit</button>
+</body>
+<script src="../JQUERY/form.js"></script>
+</html>
