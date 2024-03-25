@@ -13,7 +13,8 @@ background: linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(158
    
 }
 .box{
-    text-align: center;
+    /* text-align: center; */
+    padding-left: 550px;
 }
 .box1{
     height: 400px;
@@ -51,9 +52,12 @@ background: linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(158
     text-align: center;
     padding-left: 10px;
 }
-#loginButton{
-    /* height: 40px; */
-    width: 0px;
+#login{
+    height: 40px;
+    width: 460px;
+    margin: 15px;
+    border-radius: 5px;
+    border: none;
     /* background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(19,95,184,1) 0%);
     color: white;

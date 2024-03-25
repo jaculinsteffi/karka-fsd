@@ -1,0 +1,1201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    margin: 30px;
+}
+.box{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+.headleft{
+    width: 40%;
+    font-weight: bold;
+    font-size: 40px;
+    
+
+}
+.headright{
+    width: 60%;
+    padding-left: 20px;
+    
+}
+.headright a{
+    text-decoration: none;
+    color: black;
+}
+.headright button{
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: navy;
+    color: orange;
+}
+.headright button:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: solid lightgray;
+}
+.welcome{
+    height: 20px;
+    width: 10%;
+    text-align: center;
+    background-color: lightyellow;
+    margin-left: 30px;
+    padding-top: 5px;
+    border-radius: 30px;
+    color: orange;
+    font-size: small;
+    
+}
+.sec{
+    width: 100%;
+    display: flex;
+}
+.secleft{
+    width: 40%;
+    padding-left: 30px;
+
+}
+.secleft p{
+    margin-top: 20px;
+}
+.how{
+    height: 50px;
+    width: 170px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: navy;
+    color: white;
+    border: solid navy;
+}
+.how:hover{
+         background-color: white;
+         color: navy;
+         
+}
+.contact{
+    height: 50px;
+    width: 170px;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color:white;
+    color: navy;
+    border: solid navy;
+}
+.contact:hover{
+    background-color: navy;
+    color: white;
+}
+.secright{
+    width: 60%;
+}
+.secright img{
+    height: 300px;
+    width: 80%;
+    object-fit: cover;
+    padding-left: 20px;
+    
+}
+.feature{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature button{
+    height: 30px;
+    width: 7%;
+   background-color: lightyellow;
+   color: orange;
+   border: lightyellow solid;
+   border-radius: 30px;
+  
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: navy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sec2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.sec2p{
+    width: 40%;
+    margin-top: 10px;
+}
+.sec3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.sec3A{
+    width: 20%;
+    text-align: center;
+    color: gray;
+
+    
+}
+.sec3B{
+    width: 20%;
+    text-align: center;
+    margin-left: 100px;
+    color: gray;
+    
+}
+.sec3C{
+    width: 20%;
+    text-align: center;
+    margin-left: 100px;
+    color: gray;
+    
+}
+.sec3 h3{
+    color: black;
+}
+.sec4{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.sec4A{
+    width: 50%;
+    
+}
+.sec4A img{
+    width: 100%;
+    margin-left: 50px;
+}
+.sec4B{
+    width: 30%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.sec4B button{
+    background-color: lightyellow;
+    color: orange;
+    height: 30px;
+    width: 80px;
+    border: solid lightyellow;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+.sec4B h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: navy;
+}
+.sec4B p{
+    color: gray;
+}
+.sec4B ul{
+    margin-left: 20px;
+}
+.moon button{
+    height: 50px;
+    width: 130px;
+    font-size: 15px;
+    margin-top: 40px;
+    background-color: navy;
+    color: white;
+    border: solid navy;
+}
+.moon button:hover{
+    background-color: white;
+    border: solid navy;
+    color: navy;
+}
+.sec5{
+    width: 100%;
+    margin-top: 20%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+    
+}
+.sec5 button{
+    height: 30px;
+    width: 80px;
+    background-color: lightyellow;
+    color: orange;
+    border: solid lightyellow;
+    border-radius: 20px;
+}
+.sec6{
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+}
+.objA{
+    width: 20%;
+}
+.objB{
+    width: 50%;
+    display: flex;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    /* justify-content:space-around; */
+    /* gap: 10px; */
+}
+.objC{
+    width: 25%;
+}
+.objB1{
+    gap: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.objB2{
+    width: 50%;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    /* border: solid black; */
+ 
+}
+.con1{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    /* border: solid lightgray; */
+    border: solid lightgray; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.con1A{
+    width: 20%;
+    
+
+}
+.con1B{
+    width: 80%;
+    padding-left: 20px;
+    
+}
+.con2{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    border: solid lightgray; 
+    justify-content: center;
+    align-items: center;
+
+
+}
+.con2A{
+    width: 20%;
+
+}
+.con2B{
+    width: 80%;
+    padding-left: 20px;
+}
+.con3{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    border: solid lightgray; 
+    justify-content: center;
+    align-items: center;
+
+}
+.con3A{
+    width: 20%;
+}
+.con3B{
+    width: 80%;
+    padding-left: 20px;
+}
+.pin1{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    border: solid lightgray; 
+    justify-content: center;
+    align-items: center;
+
+
+}
+.pin1A{
+    width: 20%;
+}
+.pin1B{
+    width: 80%;
+    padding-left: 20px;
+}
+.pin2{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    border: solid lightgray; 
+    justify-content: center;
+    align-items: center;
+
+}
+.pin2A{
+    width: 20%;
+    
+}
+.pin2B{
+    width: 80%;
+    padding-left: 20px;
+}
+.pin3{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    border: solid lightgray; 
+    justify-content: center;
+    align-items: center;
+
+}
+.pin3A{
+    width: 20%;
+}
+.pin3B{
+    width: 80%;
+    padding-left: 20px;
+}
+.sec7{
+    width: 100%;
+    height: 700px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.sec7A{
+    width: 50%;
+    padding-left:280px;
+   padding-top: 100px;
+   color: gray;
+}
+.sec7A button{
+    background-color: lightyellow;
+    border: solid lightyellow;
+    color: orange;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.sec7A h1{
+    font-weight: bold;
+    color: navy;
+}
+.sec7B{
+
+    width: 100%;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 50px;
+    gap: 10px;
+   
+  
+}
+.sunA{
+    height: 300px;
+    width: 30%;
+    border: solid gray;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  flex-direction: column;
+}
+.sunB{
+    height: 300px;
+    width: 30%;
+    border: solid gray;
+    border-radius: 15px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+}
+.sunC{
+    height: 300px;
+    width: 30%;
+    border: solid gray;
+    border-radius: 15px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  
+  
+
+}
+.sunA1{
+    height: 200px;
+    width: 80%;
+    font-size: 20px;
+    padding-left: 50px;
+    margin-top: 55px;
+    margin-right: 71px;
+}
+   
+   
+
+
+.sunA2{
+    height: 100px;
+    width: 80%;
+    display: flex;
+   
+   
+}
+.moonA1{
+    height: 100px;
+    width: 20%;
+    padding-top: 3px;
+}
+.moonA2{
+    height: 100px;
+    width: 80%;
+}
+.sunB1{
+    height: 200px;
+    width: 80%;
+    font-size: 20px;
+    padding-left: 50px;
+    margin-top: 55px;
+    margin-right: 71px;
+
+
+}
+.sunB2{
+    height: 100px;
+    width: 80%;
+display: flex;
+}
+.moonB1{
+    height: 100px;
+    width: 20%;
+    padding-top: 3px;
+}
+.moonB2{
+    height: 100px;
+    width: 80%;
+}
+.sunC1{
+    height: 200px;
+    width: 80%;
+    font-size: 20px;
+    padding-left: 50px;
+    margin-top: 55px;
+    margin-right: 71px;
+
+
+}
+.sunC2{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    
+
+}
+.moonC1{
+    height: 100px;
+    width: 20%;
+  
+   padding-top: 3px;
+}
+.moonC2{
+    height: 100px;
+    width: 80%;
+}
+.sec8{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.sec8A{
+    width: 10%;
+}
+.sec8F{
+    width: 10%;
+}
+.sec8B{
+    height: 150px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.tin{
+    height: 100px;
+    width: 100%;
+}
+.tin1{
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    color: navy;
+   
+}
+.sec8C{
+    height: 150px;
+    width: 10%;
+}
+.sec8D{
+    height: 150px;
+    width: 10%;
+}
+.sec8E{
+    height: 150px;
+    width: 30% ;
+    display: flex;
+    flex-direction: column;
+}
+.mainbin{
+    height: 50px;
+    width: 100%;
+}
+.bin{
+    height: 50pxpx;
+    width: 100%;
+
+}
+.bin1{
+    height: 50px;
+    width: 100%;
+}
+.bin2{
+    height:50px ;
+    width: 100;
+}
+.foot{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+@media only screen and (max-width:992px){
+    .main{
+        width: 100%;
+        margin: 30px;
+    }
+    .box{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        padding: 30px;
+    }
+    .headleft{
+        width: 40%;
+        font-weight: bold;
+        font-size: 40px;
+        
+    
+    }
+    .headright{
+        width: 60%;
+        padding-left: 20px;
+        
+    }
+    .headright a{
+        text-decoration: none;
+        color: black;
+    }
+    .headright button{
+        height: 40px;
+        width: 100px;
+        margin-left: 20px;
+        border-radius: 30px;
+        font-size: 15px;
+        background-color: navy;
+        color: orange;
+    }
+    .headright button:hover{
+        background-color: whitesmoke;
+        color: black;
+        border: solid lightgray;
+    }
+    .welcome{
+        height: 20px;
+        width: 10%;
+        text-align: center;
+        background-color: lightyellow;
+        margin-left: 30px;
+        padding-top: 5px;
+        border-radius: 30px;
+        color: orange;
+        font-size: small;
+        
+    }
+    .sec{
+        width: 100%;
+        display: flex;
+    }
+    .secleft{
+        width: 40%;
+        padding-left: 30px;
+    
+    }
+    .secleft p{
+        margin-top: 20px;
+    }
+    .how{
+        height: 50px;
+        width: 170px;
+        margin-top: 30px;
+        font-size: 20px;
+        border-radius: 50px;
+        background-color: navy;
+        color: white;
+        border: solid navy;
+    }
+    .how:hover{
+             background-color: white;
+             color: navy;
+             
+    }
+    .contact{
+        height: 50px;
+        width: 170px;
+        margin-top: 30px;
+        font-size: 20px;
+        border-radius: 50px;
+        background-color:white;
+        color: navy;
+        border: solid navy;
+    }
+    .contact:hover{
+        background-color: navy;
+        color: white;
+    }
+    .secright{
+        width: 60%;
+    }
+    .secright img{
+        height: 300px;
+        width: 80%;
+        object-fit: cover;
+        padding-left: 20px;
+        
+    }
+    .feature{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .feature button{
+        height: 30px;
+        width: 7%;
+       background-color: lightyellow;
+       color: orange;
+       border: lightyellow solid;
+       border-radius: 30px;
+      
+    }
+    .sec1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        color: navy;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .sec2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .sec2p{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .sec3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .sec3A{
+        width: 100%;
+        text-align: center;
+        color: gray;
+    
+        
+    }
+    .sec3B{
+        width: 100%;
+        text-align: center;
+        margin-left: 100px;
+        color: gray;
+        
+    }
+    .sec3C{
+        width: 100%;
+        text-align: center;
+        margin-left: 100px;
+        color: gray;
+        
+    }
+    .sec3 h3{
+        color: black;
+    }
+    .sec4{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+    }
+    .sec4A{
+        width: 100%;
+        
+    }
+    .sec4A img{
+        width: 100%;
+        margin-left: 50px;
+    }
+    .sec4B{
+        width: 100%;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    .sec4B button{
+        background-color: lightyellow;
+        color: orange;
+        height: 30px;
+        width: 100%;
+        border: solid lightyellow;
+        border-radius: 30px;
+        font-weight: bold;
+        
+    }
+    .sec4B h1{
+        font-weight: bold;
+        font-size: 50px;
+        color: navy;
+    }
+    .sec4B p{
+        color: gray;
+    }
+    .sec4B ul{
+        margin-left: 20px;
+    }
+    .moon button{
+        height: 50px;
+        width: 130px;
+        font-size: 100px;
+        margin-top: 40px;
+        background-color: navy;
+        color: white;
+        border: solid navy;
+    }
+    .moon button:hover{
+        background-color: white;
+        border: solid navy;
+        color: navy;
+    }
+    .sec5{
+        width: 100%;
+        margin-top: 20%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        color: navy;
+        
+    }
+    .sec5 button{
+        height: 30px;
+        width: 100%;
+        background-color: lightyellow;
+        color: orange;
+        border: solid lightyellow;
+        border-radius: 20px;
+    }
+    .sec6{
+        /* height: 100vh; */
+        width: 100%;
+        display: flex;
+    }
+    .objA{
+        width: 100%;
+    }
+    .objB{
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        /* justify-content:space-around; */
+        /* gap: 10px; */
+    }
+    .objC{
+        width: 25%;
+    }
+    .objB1{
+        gap: 40px;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .objB2{
+        width: 100%;
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+        /* border: solid black; */
+     
+    }
+    .con1{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        /* border: solid lightgray; */
+        border: solid lightgray; 
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .con1A{
+        width: 100%;
+        
+    
+    }
+    .con1B{
+        width: 100%;
+        padding-left: 20px;
+        
+    }
+    .con2{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        border: solid lightgray; 
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    .con2A{
+        width: 100%;
+    
+    }
+    .con2B{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .con3{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        border: solid lightgray; 
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .con3A{
+        width: 100%;
+    }
+    .con3B{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .pin1{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        border: solid lightgray; 
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    .pin1A{
+        width: 100%;
+    }
+    .pin1B{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .pin2{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        border: solid lightgray; 
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .pin2A{
+        width: 100%;
+        
+    }
+    .pin2B{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .pin3{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        border: solid lightgray; 
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .pin3A{
+        width: 100px;
+    }
+    .pin3B{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .sec7{
+        width: 100%;
+        height: 700px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    .sec7A{
+        width: 100%;
+        padding-left:280px;
+       padding-top: 100px;
+       color: gray;
+    }
+    .sec7A button{
+        background-color: lightyellow;
+        border: solid lightyellow;
+        color: orange;
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .sec7A h1{
+        font-weight: bold;
+        color: navy;
+    }
+    .sec7B{
+    
+        width: 100%;
+        display: flex;
+        padding-left: 30px;
+        padding-top: 50px;
+        gap: 10px;
+       
+      
+    }
+    .sunA{
+        height: 300px;
+        width: 100%;
+        border: solid gray;
+       border-radius: 15px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      flex-direction: column;
+    }
+    .sunB{
+        height: 300px;
+        width: 100%;
+        border: solid gray;
+        border-radius: 15px;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    
+    }
+    .sunC{
+        height: 300px;
+        width: 100%;
+        border: solid gray;
+        border-radius: 15px;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+      
+      
+    
+    }
+    .sunA1{
+        height: 200px;
+        width: 100%;
+        font-size: 20px;
+        padding-left: 50px;
+        margin-top: 55px;
+        margin-right: 71px;
+    }
+       
+       
+    
+    
+    .sunA2{
+        height: 100px;
+        width: 100%;
+        display: flex;
+       
+       
+    }
+    .moonA1{
+        height: 100px;
+        width: 100%;
+        padding-top: 3px;
+    }
+    .moonA2{
+        height: 100px;
+        width: 100%;
+    }
+    .sunB1{
+        height: 200px;
+        width: 100%;
+        font-size: 20px;
+        padding-left: 50px;
+        margin-top: 55px;
+        margin-right: 71px;
+    
+    
+    }
+    .sunB2{
+        height: 100px;
+        width: 100%;
+    display: flex;
+    }
+    .moonB1{
+        height: 100px;
+        width: 100%;
+        padding-top: 3px;
+    }
+    .moonB2{
+        height: 100px;
+        width: 100%;
+    }
+    .sunC1{
+        height: 200px;
+        width: 100%;
+        font-size: 20px;
+        padding-left: 50px;
+        margin-top: 55px;
+        margin-right: 71px;
+    
+    
+    }
+    .sunC2{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        
+    
+    }
+    .moonC1{
+        height: 100px;
+        width: 100%;
+      
+       padding-top: 3px;
+    }
+    .moonC2{
+        height: 100px;
+        width: 100%;
+    }
+    .sec8{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .sec8A{
+        width: 100%;
+    }
+    .sec8F{
+        width: 100%;
+    }
+    .sec8B{
+        height: 150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .tin{
+        height: 100px;
+        width: 100%;
+    }
+    .tin1{
+        height: 50px;
+        width: 100%;
+        font-size: 30px;
+        color: navy;
+       
+    }
+    .sec8C{
+        height: 150px;
+        width: 100%;
+    }
+    .sec8D{
+        height: 150px;
+        width: 100%;
+    }
+    .sec8E{
+        height: 150px;
+        width: 100% ;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainbin{
+        height: 50px;
+        width: 100%;
+    }
+    .bin{
+        height: 50pxpx;
+        width: 100%;
+    
+    }
+    .bin1{
+        height: 50px;
+        width: 100%;
+    }
+    .bin2{
+        height:50px ;
+        width: 100%;
+    }
+    .foot{
+        height: 150px;
+        width: 100%;
+        text-align: center;
+    }
+    
+}

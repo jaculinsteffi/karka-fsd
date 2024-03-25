@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+
+}
+.A{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+}

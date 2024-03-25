@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRUD Example</title>
+<link rel="stylesheet" href="new.css">
+</head>
+<body>
+<h2>CRUD Example</h2>
+<form id="addItemForm">
+  <input type="text" id="nameInput" placeholder="Name">
+  <input type="text" id="descriptionInput" placeholder="Description">
+  <button type="submit">Add Item</button>
+</form>
+<table id="itemTable">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Table rows will be dynamically added here -->
+  </tbody>
+</table>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="new.js"></script>
+</body>
+</html>

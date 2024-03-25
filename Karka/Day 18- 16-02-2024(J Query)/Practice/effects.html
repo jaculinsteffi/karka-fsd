@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Stop Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: #e22c2c;
+            margin-bottom: 10px;
+            display: none; /* Initially hidden */
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <button id="startButton">Start Animation</button>
+    <button id="stopButton">Stop Animation</button>
+
+    <script>
+        $(document).ready(function() {
+            var box = $("#box");
+
+            // Start animation
+            $("#startButton").click(function() {
+                box.fadeIn(1000).fadeOut(1000, animateBox);
+            });
+
+            // Stop animation
+            $("#stopButton").click(function() {
+                box.stop(true, true); // Stops the animation immediately and clears the queue
+            });
+
+            // Function to keep the animation running
+            function animateBox() {
+                box.fadeIn(1000).fadeOut(1000, animateBox);
+            }
+        });
+    </script>
+</body>
+</html>

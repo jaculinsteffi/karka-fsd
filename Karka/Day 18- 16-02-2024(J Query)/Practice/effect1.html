@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Effects Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: #e22c2c;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <button id="fadeInButton">Fade In</button>
+    <button id="fadeOutButton">Fade Out</button>
+    <button id="slideUpButton">Slide Up</button>
+    <button id="slideDownButton">Slide Down</button>
+    <button id="callbackButton">Fade with Callback</button>
+    <!-- <button id="stopButton">Stop Animation</button> -->
+
+    <script>
+        $(document).ready(function() {
+            // Fade In effect
+            $("#fadeInButton").click(function() {
+                $("#box").fadeIn();
+            });
+
+            // Fade Out effect
+            $("#fadeOutButton").click(function() {
+                $("#box").fadeOut();
+            });
+
+            // Slide Up effect
+            $("#slideUpButton").click(function() {
+                $("#box").slideUp();
+            });
+
+            // Slide Down effect
+            $("#slideDownButton").click(function() {
+                $("#box").slideDown();
+            });
+
+            // Fade with Callback effect
+            $("#callbackButton").click(function() {
+                $("#box").fadeOut("slow", function() {
+                    alert("Fade effect finished.");
+                });
+            });
+
+            
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 10vh; 
+    justify-content: center;
+    align-items: center; */
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section1{
+    height: 20vh;
+    width: 90%;
+    background-color: plum;
+
+
+}
+.section2{
+    height: 50vh;
+    width: 90%;
+    background-color: grey;
+    display: flex;
+
+}
+.section3{
+    height: 20vh;
+    width: 90%;
+    background-color: pink;
+
+
+}
+.A{
+    height: 50vh;
+    width: 60%;
+    background-color: lavender;
+   
+}
+    
+ .B{
+    height: 50vh;
+    width: 39%;
+    background-color: skyblue;
+    padding-inline-start: 20px;
+} 

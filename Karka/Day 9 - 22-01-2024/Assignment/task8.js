@@ -1,0 +1,11 @@
+a=[1,2,2,1]
+b=[2,2]
+c=[]
+for(i=0;i<=a.length-1;i++){
+    for(j=0;j<=b.length-1;j++){
+        if(a[i]==b[i]){
+            c.push(a[i])
+        }
+    }
+}
+console.log(c)

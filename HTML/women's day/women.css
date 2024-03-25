@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    /* height: 100vh; */
+    width: 100%;
+    background: rgb(119,222,235);
+    background: linear-gradient(90deg, rgba(119,222,235,1) 0%, rgba(167,167,167,1) 100%);
+}
+.head{
+    /* text-align: center; */
+    color: white;
+    padding-left: 450px;
+}
+.body{
+    text-align: center;
+    font-size: 480px;
+    color:transparent;
+    position: relative;
+}
+.pic1{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/1761390520/vector/baby-position-in-mothers-belly-linear-illustration-vector.jpg?s=1024x1024&w=is&k=20&c=WyjKLY15EuKvMhYdVUTGWJ-o9zKvdEeNghG-oDP_Nfo=);
+    background-size: cover;
+    position: absolute;
+    top: 55px;
+    left: 590px;
+}
+.pic2{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/1318638817/vector/emotional-intelligence-balance-emotion-control-feeling-between-work-stressed-or-sadness-and.jpg?s=1024x1024&w=is&k=20&c=GHzVPbuKRTTqQf-ZLEKA6sEcWWy5GyugOBTCbanie2U=);
+    background-size: cover;
+    position: absolute;
+    top: 70px;
+    left: 660px;
+}
+.pic3{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/1441893011/vector/young-woman-doing-domestic-work-cleaning-floor-with-mop-girl-washing-living-room-routine.jpg?s=1024x1024&w=is&k=20&c=mZfPUd77KHZ1DaUXG56w_xEmNuhiJazh5H8Ag3LMxz0=);
+    background-size: cover;
+    position: absolute;
+    top: 110px;
+    left: 708px;
+}
+.pic4{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/1438577939/vector/old-couple-walking.jpg?s=1024x1024&w=is&k=20&c=nZKmvbOhTg_8AnWQ8o1jfStRk6giYy3WHgZxbIMJbgA=);
+    background-size: cover;
+    position: absolute;
+    top: 170px;
+    left: 735px;
+}
+.pic5{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/664337122/vector/happy-family-mother-and-2-son-happy-family-gesturing-with-cheerful-smile.jpg?s=1024x1024&w=is&k=20&c=Rp59u4drbvdYg5n8tPXV-2Ma2DGYBNgtlL8yLMAZLLU=);
+    background-size: cover;
+    position: absolute;
+    top: 230px;
+    left: 730px;
+}
+.pic6{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/1218706398/vector/the-girl-is-ironing-clothes-domestic-work-house-cleaning.jpg?s=1024x1024&w=is&k=20&c=bWvumzIFrcWcjVK0vVFBA6_zAuJL-nTi9__pw7ubNiA=);
+    background-size: cover;
+    position: absolute;
+    top: 280px;
+    left: 700px;
+}
+.pic7{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/940362434/vector/multitasking-housewife-on-white-background.jpg?s=1024x1024&w=is&k=20&c=LNkyO3yM00hvaQ5_YnEzjB5_RFe7AN6FR9kEIZxiJRk=);
+    background-size: cover;
+    position: absolute;
+    top: 315px;
+    left: 650px;
+}
+.pic8{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/1357651318/vector/woman-character-in-cap-and-jumpsuit-with-shovel-cultivating-money-tree-vector-illustration.jpg?s=1024x1024&w=is&k=20&c=GMCFuOQ9HKryDUmOdc2VxvQQUY-GTr_fgShN7iykY8M=);
+    background-size: cover;
+    position: absolute;
+    top: 325px;
+    left: 590px;
+}
+.pic9{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://munnaprawin.files.wordpress.com/2020/12/image-asset.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 305px;
+    left: 530px;
+}
+.pic10{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/1378518394/vector/mother-and-daughter-suffering-in-the-world-war.jpg?s=1024x1024&w=is&k=20&c=LdtPGxT18_pnPYh5wA7aA3Sa5kMuxaoqI65I74Axku0=);
+    background-size: cover;
+    position: absolute;
+    top: 265px;
+    left: 490px;
+}
+.pic11{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/1151937392/vector/international-women-day-womens-struggle-and-solidarity-for-rights-and-emancipation.jpg?s=1024x1024&w=is&k=20&c=0V5JYWokIqxWKJymDsqm7LiMoxhzBaN4AbE1N-fAWoU=);
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    left: 470px;
+}
+.pic12{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://api.writco.in/assets/images/post/user/story/400200718071210245.webp);
+    background-size: cover;
+    position: absolute;
+    top: 140px;
+    left: 480px;
+}
+.pic13{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://images.boldsky.com/img/2014/07/12-1405136012-womensacrificetheirappearances.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 80px;
+    left: 520px;
+}
+.pic14{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://cdn.substack.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa6f6db4-9d55-4248-9bbd-b3d26855799c_720x720.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 390px;
+    left: 600px;
+}
+.pic15{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.licdn.com/dms/image/C5612AQE-67-Ot8-VRg/article-cover_image-shrink_720_1280/0/1644170956932?e=2147483647&v=beta&t=baN-vqqmcHla-Uiga8aCWZXJZFIHM7MAKq6fN0bUr0A);
+    background-size: cover;
+    position: absolute;
+    top: 450px;
+    left: 600px;
+}
+.pic16{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ISAkYRvwlc7vq7hBtjTI5oBTHVsGs_LkWdXw1nu-h0b0pclPKv-OLc2q7O2p5vWTceE&usqp=CAU);
+    background-size: cover;
+    position: absolute;
+    top: 450px;
+    left: 540px;
+}
+.pic17{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/1360400024/vector/group-of-people-in-circle-from-diverse-culture-holding-hands-cooperation-and-teamwork.jpg?s=1024x1024&w=is&k=20&c=dNBVreWD5WcjOaycl71TUy2JDvYw-w_NGuh6WzZBFO4=);
+    background-size: cover;
+    position: absolute;
+    top: 450px;
+    left: 660px;
+}
+.pic18{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: url(https://media.istockphoto.com/id/1312274998/vector/mom-and-son-do-yoga-doing-the-snake-pose.jpg?s=1024x1024&w=is&k=20&c=QWUhQjQkkPYXLMlQyb-gJtcO_hD8MWmdJJXrxQv_E-g=);
+    background-size: cover;
+    position: absolute;
+    top: 510px;
+    left: 600px;
+}

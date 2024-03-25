@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 20vh;
+    width: 100%;
+    background-color: magenta;
+    text-align: center;
+}
+.navigation{
+    height: 20vh;
+    width: 100%;
+    background-color: violet;
+    text-align: center;
+}
+.section{
+    height: 40vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+
+}
+.footer{
+    height: 20vh;
+    width: 100%;
+    background-color: blueviolet;
+    text-align: center;
+}
+.leftpanel{
+    height: 40vh;
+    flex: 1;
+    background-color: pink;
+    text-align: center;
+
+
+}
+.maincontent{
+    height: 40vh;
+    flex: 2;
+    background-color: white;
+    text-align: center;
+}

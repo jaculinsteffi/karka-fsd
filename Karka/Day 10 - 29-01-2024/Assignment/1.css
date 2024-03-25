@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+}
+.A{
+    height: 20vh;
+    width: 100%;
+    background-color: skyblue;
+}
+.B{
+    height: 20vh;
+    width: 100%;
+    background-color: thistle;
+    display: flex;
+}
+.C{
+    height: 20vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+}
+.D{
+    height: 20vh;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+}
+.E{
+    height: 20vh;
+    width: 100%;
+    background-color: lightblue;
+}
+.B1{
+    height: 20vh;
+    width: 50%;
+    background-color: bisque;
+}
+.B2{
+    height: 20vh;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.sec1{
+    height: 10vh;
+    width: 100%;
+    background-color: gray;
+}
+.sec2{
+    height: 10vh;
+    width: 100%;
+    background-color:cornflowerblue;
+}
+.C1{
+    height: 20vh;
+    width: 30%;
+    background-color: aliceblue;
+}
+.C2{
+    height: 20vh;
+    width: 70%;
+    background-color: orange;
+}
+.D1{
+    height: 20vh;
+    width: 30%;
+    background-color: blueviolet;
+}
+.D2{
+    height: 20vh;
+    width: 35%;
+    background-color: green;
+}
+.D3{
+    height: 20vh;
+    width: 35%;
+    background-color: red;
+}

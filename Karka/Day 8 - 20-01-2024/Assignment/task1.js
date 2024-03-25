@@ -1,0 +1,10 @@
+a=30
+b=40
+sum=a+b
+prod=a*b
+if(prod>200){
+    console.log(sum)
+}
+else{
+    console.log(prod)
+}

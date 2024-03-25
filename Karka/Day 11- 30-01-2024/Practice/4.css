@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    display: inline-block;
+}
+.head{
+    height: 30vh;
+    width: 100%;
+    background-color: purple;
+    display: inline-block;
+}
+.sec{
+    height: 40vh;
+    width: 100%;
+    background-color: violet;
+    display: inline-block;
+}
+.A{
+    height: 40vh;
+    width: 40%;
+    display: inline-block;
+    background-color: blanchedalmond;
+}
+.B{
+    height: 40vh;
+    width: 59%;
+    display: inline-block;
+}
+.B1{
+    height: 20vh;
+    width: 100%;
+    display: inline-block;
+    background-color: aqua;
+}
+.B2{
+    height: 19vh;
+    width: 100%;
+    display: inline-block;
+    background-color:yellow;
+}
+.foot{
+    height: 40vh;
+    width: 100%;
+    background-color: purple;
+}
+@media only screen and (max-width:999px)
+{
+    .A{
+        height: 40vh;
+        width: 100%;
+        display: inline-block;
+    }
+    .B{
+        height: 40vh;
+        width: 100%;
+        display: inline-block;
+    }
+    .B1{
+        height: 20vh;
+        width: 50%;
+        display: inline-block;
+    }
+    .B2{
+        height: 20vh;
+        width: 49%;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width:775px)
+{
+    .A{
+        height: 40vh;
+        width: 100%;
+        display: inline-block;
+    }
+    .B{
+        height: 40vh;
+        width: 100%;
+        display: inline-block;
+    }
+    .B1{
+        height: 20vh;
+        width: 100%;
+        display: inline-block;
+    }
+    .B2{
+        height: 0vh ;
+        width: 0% ;
+        display: inline-block;
+        background-color: pink;
+    }
+    .foot{
+        height: 0vh;
+        width: 0%;
+        background-color: greenyellow;
+    }
+}

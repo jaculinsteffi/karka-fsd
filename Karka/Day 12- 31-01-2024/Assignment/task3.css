@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    display: inline-block;
+    border: 5px solid black;
+}
+.box{
+    height: 90vh;
+    width: 90%;
+    background-color: lightgray;
+    margin: 40px;
+    display: inline-block;
+}
+.head{
+    height: 10vh;
+    width: 99%;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    padding-top: 25px;
+    display: inline-block;
+    
+}
+.sec{
+    height: 60vh;
+    width: 100%;
+    display: inline-block;
+}
+.A{
+    height: 60vh;
+    width: 70%;
+    display: inline-block;
+    margin: 2px;
+    vertical-align: top;
+}
+.A1{
+    height: 30vh;
+    width: 99%;
+    background-color: white;
+    display: inline-block;
+    margin: 2px;
+}
+.A2{
+    height: 29vh;
+    width: 99%;
+    background-color: white;
+    display: inline-block;
+    margin: 2px;
+}
+.img1 img{
+    height: 18vh;
+    width: 90%;
+    background-color: antiquewhite;
+    object-fit: cover;
+    
+}
+.B{
+    height: 60vh;
+    width: 27.5%;
+    display: inline-block;
+    margin: 2px;
+    vertical-align: top;
+}
+.B1{
+    height: 19vh;
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+    margin: 2px;
+}
+.B2{
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+    margin: 2px;
+}
+.B3{
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+    margin: 1px;
+}
+.img2 img{
+    height: 8vh;
+    width: 90%;
+    background-color: antiquewhite;
+    object-fit: cover;
+}
+.foot{
+    height:10vh;
+    width: 98%;
+    background-color: rgb(146, 139, 139);
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding-top: 5px;
+}
+@media only screen and (max-width:992px)
+{
+    .sec{
+        height: 50vh;
+        width: 100%;
+        display: inline-block;
+    }
+    .A{
+        height: 20vh;
+        width: 100%;
+        display: inline-block;
+        margin: 2px;
+        vertical-align: top;
+    }
+    .A1{
+        height: 10vh;
+        width: 100%;
+        background-color: white;
+        display: inline-block;
+        margin: 2px;
+    }
+    .A2{
+        height: 10vh;
+        width: 99%;
+        background-color: white;
+        display: inline-block;
+        margin: 2px;
+    }
+    .img1 img{
+        height: 5vh;
+        width: 90%;
+        background-color: antiquewhite;
+        object-fit: cover;
+        
+    }
+    .B{
+        height: 30vh;
+        width: 100%;
+        display: inline-block;
+        margin: 2px;
+        vertical-align: top;
+    }
+    .B1{
+        height: 10vh;
+        width: 100%;
+        background-color: white;
+        display: inline-block;
+        margin: 2px;
+    }
+    .B2{
+        height: 10vh;
+        width: 100%;
+        background-color: white;
+        display: inline-block;
+        margin: 2px;
+    }
+    .B3{
+        height: 5vh;
+        width: 100%;
+        background-color: white;
+        display: inline-block;
+        margin: 1px;
+    }
+    .img2 img{
+        height: 5vh;
+        width: 90%;
+        background-color: antiquewhite;
+        object-fit: cover;
+    }
+    .foot{
+        height:5vh;
+        width: 98%;
+        background-color: rgb(146, 139, 139);
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        padding-top: 5px;
+        /* display: none; */
+    }
+}

@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 600px;
+    width: 50%;
+    background-color: yellow;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: skyblue;
+    display: inline-block;
+
+}
+.navigation{
+    height: 100px;
+    width: 100%;
+    background-color: brown;
+    display: inline-block;
+}
+.section{
+    height: 300px;
+    width: 100%;
+    background-color: green;
+    display: inline-block;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    display: inline-block;
+}
+.index{
+    height: 300px;
+    width: 29%;
+    background-color: grey;
+    display: inline-block;
+}
+.content{
+    height: 300px;
+    width: 70%;
+    background-color: black;
+    display: inline-block;
+}

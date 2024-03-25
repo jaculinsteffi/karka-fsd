@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: inline-block;
+}
+.new{
+    height:40vh;
+    object-fit: cover;
+    width:100%
+}
+.head{
+    height: 40vh;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: inline-block;
+}
+.foot{
+    height: 60vh;
+    width: 100%;
+    /* background-color: white; */
+    display: inline-block;
+}
+.sec1{
+    height: 60vh;
+    width: 33%;
+    /* background-color: azure; */
+    display: inline-block;
+}
+.A1{
+    height: 35vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: inline-block;
+}
+.new1{
+    height:35vh;
+    width:100%;
+    object-fit: cover;
+}
+.A2{
+    height: 24vh;
+    width: 100%;
+    /* background-color: white; */
+    display: inline-block;
+}
+.sec2{
+    height: 60vh;
+    width: 33%;
+    /* background-color: beige; */
+    display: inline-block;
+}
+.B1{
+    height: 35vh;
+    width: 99%;
+    /* background-color: aqua; */
+    display: inline-block;
+}
+.new2{
+    height:35vh;
+    width:100%;
+    object-fit: cover;
+}
+.B2{
+    height: 25vh;
+    width: 100%;
+    /* background-color: white; */
+    display: inline-block;
+}
+.sec3{
+    height: 60vh;
+    width: 31.5%;
+    /* background-color: lightseagreen; */
+    display: inline-block;
+}
+.C1{
+    height: 35vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: inline-block;
+}
+.new3{
+    height:35vh;
+    width:100%;
+    object-fit: cover;
+}
+.C2{
+    height: 24vh;
+    width: 100%;
+    /* background-color: white; */
+    display: inline-block;
+}
+@media only screen and (max-width:992px)
+{
+    .sec1{
+        height: 20vh;
+        width: 100%;
+        /* background-color: azure; */
+        display: inline-block;
+    }
+    .A1{
+        height: 20vh;
+        width: 50%;
+        /* background-color: aqua; */
+        display: inline-block;
+    }
+    .new1{
+        height:20vh;
+        width:100%;
+        object-fit: cover;
+    }
+    .A2{
+        height: 20vh;
+        width: 49%;
+        /* background-color: white; */
+        display: inline-block;
+    }
+    .sec2{
+        height: 20vh;
+        width: 100%;
+        /* background-color: beige; */
+        display: inline-block;
+    }
+    .B1{
+        height: 20vh;
+        width: 50%;
+        /* background-color: aqua; */
+        display: inline-block;
+    }
+    .new2{
+        height:20vh;
+        width:100%;
+        object-fit: cover;
+    }
+    .B2{
+        height: 20vh;
+        width: 49%;
+        /* background-color: white; */
+        display: inline-block;
+    }
+    .sec3{
+        height: 20vh;
+        width: 100%;
+        /* background-color: lightseagreen; */
+        display: inline-block;
+    }
+    .C1{
+        height: 20vh;
+        width: 50%;
+        /* background-color: aqua; */
+        display: inline-block;
+    }
+    .new3{
+        height:20vh;
+        width:100%;
+        object-fit: cover;
+    }
+    .C2{
+        height: 20vh;
+        width: 49%;
+        /* background-color: white; */
+        display: inline-block;
+    }
+}
+@media only screen and (max-width:556px)
+{
+    .sec1{
+        height: 20vh;
+        width: 100%;
+        /* background-color: azure; */
+        display: inline-block;
+    }
+    .A1{
+        height: 20vh;
+        width: 100%;
+        /* background-color: aqua; */
+        display: inline-block;
+    }
+    .new1{
+        height:20vh;
+        width:100%;
+        object-fit: cover;
+    }
+    .A2{
+        height: 20vh;
+        width: 100%;
+        /* background-color: white; */
+        display: inline-block;
+    }
+    .sec2{
+        height: 20vh;
+        width: 100%;
+        /* background-color: beige; */
+        display: inline-block;
+    }
+    .B1{
+        height: 20vh;
+        width: 100%;
+        /* background-color: aqua; */
+        display: inline-block;
+    }
+    .new2{
+        height:20vh;
+        width:100%;
+        object-fit: cover;
+    }
+    .B2{
+        height: 20vh;
+        width: 100%;
+        /* background-color: white; */
+        display: inline-block;
+    }
+    .sec3{
+        height: 20vh;
+        width: 100%;
+        /* background-color: lightseagreen; */
+        display: inline-block;
+    }
+    .C1{
+        height: 20vh;
+        width: 100%;
+        /* background-color: aqua; */
+        display: inline-block;
+    }
+    .new3{
+        height:20vh;
+        width:100%;
+        object-fit: cover;
+    }
+    .C2{
+        height: 20vh;
+        width: 100%;
+        /* background-color: white; */
+        display: inline-block;
+    }
+}

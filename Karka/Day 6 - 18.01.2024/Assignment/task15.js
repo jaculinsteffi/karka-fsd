@@ -1,0 +1,9 @@
+fruits=["apples","bananas","oranges","grapes"]
+fruits.pop()
+console.log(fruits)
+fruits.push("kiwi")
+console.log(fruits)
+fruits.shift()
+console.log(fruits)
+fruits.unshift("avacado")
+console.log(fruits)

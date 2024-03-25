@@ -1,0 +1,10 @@
+a=100
+b=30
+c=a*b
+d=a+b
+if(c>500){
+    console.log(d)
+}
+else{
+    console.log(c)
+}

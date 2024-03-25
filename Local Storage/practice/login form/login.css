@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    padding: 40px;
+}
+.page1{
+    height: 500px;
+    width: 400px;
+    margin: auto;
+}
+.page1 h3{
+    text-align: center;
+}
+#login{
+    margin-top: 20px;
+    height: 50px ;
+}
+.forget a{
+    text-decoration: none;
+}
+#create{
+    margin-top: 20px;
+    height: 50px ;
+    
+}
+#create a{
+    color: white;
+    text-decoration: none;
+}
+.page2{
+    display: none;
+}
