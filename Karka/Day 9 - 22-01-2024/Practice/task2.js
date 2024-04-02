@@ -12,3 +12,13 @@ for(i=0;i<=arr.length-1;i++){
 console.log(b)
 
 
+
+
+input=[3,6,5,2,1]
+sum=0
+for(i=0;i<input.length;i++){
+    sum+=input[i]
+}
+console.log(sum)
+
+

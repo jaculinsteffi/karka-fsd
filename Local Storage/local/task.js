@@ -26,8 +26,8 @@ function displays(){
     }
 }
 $("#clearButton").click(function(){
-    // localStorage.removeItem("item")
-    $("#ul").remove()
+    // localStorage.removeItem("item")   
+    $("#ul li:last").remove()
 
 
 })

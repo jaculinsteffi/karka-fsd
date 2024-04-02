@@ -1,0 +1,19 @@
+{
+    "product":[
+        {
+            "name":"smartphone",
+            "price":59050,
+            "img":"https://m.media-amazon.com/images/I/3150P3KQFlL._SY445_SX342_QL70_FMwebp_.jpg"
+        },
+        {
+            "name":"smartphone",
+            "price":62000,
+            "img":"https://m.media-amazon.com/images/I/31VjlrbE3bL._SY445_SX342_QL70_FMwebp_.jpg"
+        },
+        {
+            "name":"smartphone",
+            "price":13000,
+            "img":"https://m.media-amazon.com/images/I/41LR8VAZD2L._SX300_SY300_QL70_FMwebp_.jpg"
+        }
+    ]
+}

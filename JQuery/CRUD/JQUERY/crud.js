@@ -73,7 +73,7 @@ $(document).ready(function(){
 
          $("#name").val(name)
            $("#email").val(email)
-           $("#password").val(password)
+           $("#password").val(password) 
            $("input[name='gender'][value='" + gender + "']").prop('checked', true)
            $("#place").val(place)
          $("input[name='skills'][value='" + skills + "']").prop('checked', true)

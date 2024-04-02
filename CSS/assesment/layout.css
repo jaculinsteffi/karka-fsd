@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+}
+
+.head1{
+    background-color: aquamarine;
+}
+
+.head2{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.head3{
+    background-color: yellow;
+}
+.section{
+    height: 200px;
+    width: 100%;
+}
+.section1{
+    background-color: green;
+}
+.section2{
+    background-color: orange;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+}
+.footer1{
+    background-color: grey;
+}
+.footer2{
+    background-color: blue;
+}
+.footer3{
+    background-color: violet;
+}
+.footer4{
+    background-color: pink;
+}
