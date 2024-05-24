@@ -1,0 +1,41 @@
+{
+    "data": [
+        {
+            "question": " What is the capital city of Australia?",
+            "option": [
+                "Sydney",
+                "Melbourne",
+                "Canberra",
+                "Brisbane"
+            ]
+        },
+        {
+            "question": " What is the chemical symbol for gold?",
+            "option": [
+                "Au",
+                "Ag",
+                "Gd",
+                "Gi"
+            ]
+        },
+        {
+            "question": " In which year did Christopher Columbus first reach the Americas?",
+            "option": [
+                "1492",
+                "1588",
+                "1422",
+                "1517"
+            ]
+        },
+        {
+            "question": " Who wrote the novel 'To Kill a Mockingbird'?",
+            "option": [
+                "Ernest Hemingway",
+                "Harper Lee",
+                "J.D. Salinger",
+                "F. Scott Fitzgerald"
+            ]
+        }
+    
+    ]
+}

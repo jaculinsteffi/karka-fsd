@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.main{
+  text-align: center;
+  color: white;
+  background-color:slategray;
+  height: 100vh;
+}
+video{
+  height: 50%;
+  width: 50%;
+  
+   
+  
+}
+/* .radio{
+  display: inline-block;
+} */

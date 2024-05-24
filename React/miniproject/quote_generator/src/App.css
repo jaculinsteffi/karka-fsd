@@ -1,0 +1,19 @@
+h2{
+  text-align: center;
+}
+.main{
+  background-color: goldenrod;
+  height: 100vh;
+  width: 100%;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.quote{
+  height: 200px;
+  width: 600px;
+  background-color: white;
+  text-align: center;
+  
+}

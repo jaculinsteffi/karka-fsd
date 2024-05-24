@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+
+body{
+  background-color: black;
+  color: white;
+}
+.form-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.username{
+  margin-left: 20px;
+  height: 25px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.password{
+  margin-left: 20px;
+  height: 25px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.dob{
+  margin-left: 20px;
+  height: 25px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: lightgreen;
+
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 25%;
+  border-radius: 40px;
+  background-color:lightgreen;
+  color: black;
+
+}
+
+.button:hover{
+  background-color: black;
+  color: lightgreen;
+  transition: 2s;
+
+}
+
+.b1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+img{
+  height: 400px;
+  width: 300px;
+  margin-left: 37%;
+  margin-top: 20px;
+
+}

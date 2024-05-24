@@ -1,0 +1,16 @@
+.table tbody tr{
+  background-color: #61dafb;
+  /* height: 50px; */
+  /* width: 50px; */
+  border: 1px solid black;
+}
+.table{
+  border: 1px solid black;
+}
+.table tbody tr {
+  width: 100px;
+}
+table, td, th{
+  border: 1px solid black;
+
+}

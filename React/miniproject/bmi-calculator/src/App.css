@@ -1,0 +1,52 @@
+.main{
+  height: 100vh;
+  width: 100%;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section{
+  height: 15vh;
+  width: 70%;
+  background-color: navy;
+  color: white;
+  text-align: center;
+}
+.first{
+  height: 60vh;
+  width: 70%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+input{
+  border: none;
+  width: 70%;
+}
+.bmi{
+  width: 80px;
+  height: 40px;
+  background-color: navy;
+  border-radius: 20px;
+  color: white;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.bmi:hover{
+  background-color: lightblue;
+  color: navy;
+}
+.third,
+.second,
+.firstone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

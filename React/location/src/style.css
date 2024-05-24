@@ -1,0 +1,15 @@
+.css{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.cont{
+    background-color: black;
+    color: chartreuse;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 250px;
+    width: 200px;
+    text-align: center;   
+}

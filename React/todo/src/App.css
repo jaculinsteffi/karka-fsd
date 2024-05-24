@@ -1,0 +1,62 @@
+body{
+  /* background: rgb(165,165,165); */
+  /* background: linear-gradient(338deg, rgba(165,165,165,1) 31%, rgba(62,218,191,1) 75%); */
+  background-color: rgba(0, 208, 255, 0.237);
+}
+
+input{
+  height: 40px;
+  width: 40%;
+  /* margin-top: 100px; */
+  /* margin-left: 250px; */
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+  margin-left: 20px;
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+  color: black;
+  background-color: rgba(0, 255, 170, 0.434);
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  
+}
+
+li{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: crimson;
+}
+
+table{
+  margin-left: 120px;
+  margin-top: 40px;
+  width: 80%;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.div1{
+  
+float: left;
+width: 40%;
+margin-top: 50px;
+margin-left: 190px;
+margin-bottom: 50px;
+}
+
+.div2{
+  
+  float: left;
+  width: 40%;
+  margin-top: 50px;
+  }
+h3{
+    text-align: center;
+  }
