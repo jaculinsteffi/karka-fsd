@@ -9,11 +9,13 @@ const ViewEmployees = () => {
   const [employ,setemploy]=useState([])
   const [searchemp,setsearchemp]=useState("")
   const [filteremp,setfilteremp]=useState([])
+  console.log(filteremp,'lll')
 
   const fetching=async()=>{
     try{
-       const resp=await axios.get("http://localhost:3001/data")
+       const resp=await axios.get("http://localhost:3333/user/alluser")
        const data=resp.data
+       console.log(data)
        setemploy(data)
        setfilteremp(data)
     }
@@ -24,23 +26,35 @@ const ViewEmployees = () => {
   useEffect(()=>{
     fetching()
   },[])
-  const handleremove=async(id)=>{
-    try{
-       const ans=await axios.delete(`http://localhost:3001/data/${id}`)
-       setemploy(prevData=>prevData.filter(task=>task.id !==id))
-       setfilteremp(prevData => prevData.filter(task => task.id !== id));
-      
-    }
-    catch(err){
-      console.log(err)
-    }
+
+
+const handleremove = async (_id) => {
+  console.log(_id);
+  try {
+    const response = await axios.post(`http://localhost:3333/user/delete`, { _id });
+
+    console.log(response.data); 
+    fetching()
+  } catch (err) {
+    console.error("Error:", err);
   }
+};
+
+
+
   const handlesearchemp=(e)=>{
-    setsearchemp(e.target.value)
-    const filteremploy=employ.filter(item=>item.Name.toLowerCase().includes(searchemp.toLowerCase())||
-    item.Email.toLowerCase().includes(searchemp.toLowerCase())
+    const value=e.target.value
+    setsearchemp(value)
+    if(value===''){
+      setfilteremp(employ)
+    }
+    else{
+      const filteremploy=employ.filter(item=>item.email.toLowerCase().includes(value.toLowerCase())
   )
     setfilteremp(filteremploy)
+
+    }
+    
   }
  
   return (
@@ -66,10 +80,10 @@ const ViewEmployees = () => {
               <tbody>
                 {filteremp.map((item,i)=>(
                   <tr key={i}>
-                    <td>{item.id}</td>
-                    <td>{item.Name}</td>
-                    <td>{item.Email}</td>
-                    <td><button className='button2' onClick={()=>handleremove(item.id)}>Remove</button></td>
+                    <td>{i+1}</td>
+                    <td>{item.name}</td>
+                    <td>{item.email}</td>
+                    <td><button className='button2' onClick={()=>handleremove(item._id)}>Remove</button></td>
                   </tr>
                 ))}
               </tbody>

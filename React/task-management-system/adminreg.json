@@ -1,25 +1,11 @@
 {
   "data": [
     {
-      "Name": "Jaculin steffi",
-      "Email": "jaculinsteffi@gmail.com",
-      "Password": "Jaculin@15",
-      "Confirm": "Jaculin@15",
-      "id": "49ff"
-    },
-    {
       "Name": "Sajin",
       "Email": "sajin0904@gmail.com",
       "Password": "12345",
       "Confirm": "12345",
       "id": "973c"
-    },
-    {
-      "id": "63cc",
-      "Name": "John Jerish",
-      "Email": "johnjerishj@gmail.com",
-      "Password": "Johnjerish",
-      "Confirm": "Johnjerish"
     },
     {
       "id": "7f14",
@@ -48,6 +34,13 @@
       "Email": "magesh123@gmail.com",
       "Password": "12345",
       "Confirm": "12345"
+    },
+    {
+      "id": "4fe3",
+      "Name": "John Jerish",
+      "Email": "johnjerishj@gmail.com",
+      "Password": "123456",
+      "Confirm": "123456"
     }
   ],
   "adminlogin": [
@@ -83,7 +76,7 @@
       "ProjectDescription": "Create A book my Show  App clone",
       "ProjectRequirement": "Use ReactJs and Json",
       "ProjectDeadline": "2024-05-28",
-      "ProjectStatus": "Pending"
+      "ProjectStatus": "Completed"
     },
     {
       "id": "5993",
@@ -102,6 +95,24 @@
       "ProjectRequirement": "Use ReactJs and Json",
       "ProjectDeadline": "2024-05-30",
       "ProjectStatus": "Completed"
+    },
+    {
+      "id": "262a",
+      "ProjectName": "E-Commerce Website",
+      "ProjectEmail": "johnjerishj@gmail.com",
+      "ProjectDescription": "Create A E-Commerce Website",
+      "ProjectRequirement": "Use ReactJs and Json",
+      "ProjectDeadline": "2024-05-30",
+      "ProjectStatus": "Completed"
+    },
+    {
+      "id": "b841",
+      "ProjectName": "Youtube Clone",
+      "ProjectEmail": "alenroro@gmail.com",
+      "ProjectDescription": "Create a youtube clone",
+      "ProjectRequirement": "Use ReactJs and Json",
+      "ProjectDeadline": "2024-05-30",
+      "ProjectStatus": "Pending"
     }
   ]
 }

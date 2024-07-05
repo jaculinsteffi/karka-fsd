@@ -1,0 +1,195 @@
+{
+    "members":[
+        {
+          "address": "John Doe",
+          "created_at": "6812660035",
+          "full_name": "user_5368",
+          "member_id": 1,
+          "phone": "567 Pine Rd",
+          "total_books_borrowed": "Fri, 11 Aug 2023 16:28:49 GMT"
+        },
+        {
+          "address": "John Doe",
+          "created_at": "3078234530",
+          "full_name": "user_7040",
+          "member_id": 2,
+          "phone": "789 Oak Ave",
+          "total_books_borrowed": "Fri, 11 Aug 2023 16:28:49 GMT"
+        },
+        {
+          "address": "John Doe",
+          "created_at": "4980262858",
+          "full_name": "user_2072",
+          "member_id": 3,
+          "phone": "456 Elm St",
+          "total_books_borrowed": "Fri, 11 Aug 2023 16:28:49 GMT"
+        },
+        {
+          "address": "Jane Smith",
+          "created_at": "1569409033",
+          "full_name": "user_7860",
+          "member_id": 4,
+          "phone": "456 Elm St",
+          "total_books_borrowed": "Fri, 11 Aug 2023 16:28:49 GMT"
+        },
+        {
+          "address": "Emily Williams",
+          "created_at": "7413361023",
+          "full_name": "user_9222",
+          "member_id": 5,
+          "phone": "456 Elm St",
+          "total_books_borrowed": "Fri, 11 Aug 2023 16:28:49 GMT"
+        }
+      ],
+
+      
+        "books": [
+          {
+            "id": 1,
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "genre": "Fiction",
+            "year": 1960,
+            "available": true,
+            "image": "https://example.com/images/to_kill_a_mockingbird.jpg"
+          },
+          {
+            "id": 2,
+            "title": "1984",
+            "author": "George Orwell",
+            "genre": "Dystopian",
+            "year": 1949,
+            "available": false,
+            "image": "https://example.com/images/1984.jpg"
+          },
+          {
+            "id": 3,
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "genre": "Classics",
+            "year": 1925,
+            "available": true,
+            "image": "https://example.com/images/the_great_gatsby.jpg"
+          },
+          {
+            "id": 4,
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "genre": "Romance",
+            "year": 1813,
+            "available": true,
+            "image": "https://example.com/images/pride_and_prejudice.jpg"
+          },
+          {
+            "id": 5,
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "genre": "Fiction",
+            "year": 1951,
+            "available": false,
+            "image": "https://example.com/images/the_catcher_in_the_rye.jpg"
+          },
+          {
+            "id": 6,
+            "title": "Moby-Dick",
+            "author": "Herman Melville",
+            "genre": "Classics",
+            "year": 1851,
+            "available": true,
+            "image": "https://example.com/images/moby_dick.jpg"
+          },
+          {
+            "id": 7,
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "genre": "Fantasy",
+            "year": 1937,
+            "available": true,
+            "image": "https://example.com/images/the_hobbit.jpg"
+          },
+          {
+            "id": 8,
+            "title": "War and Peace",
+            "author": "Leo Tolstoy",
+            "genre": "Historical",
+            "year": 1869,
+            "available": false,
+            "image": "https://example.com/images/war_and_peace.jpg"
+          },
+          {
+            "id": 9,
+            "title": "Jane Eyre",
+            "author": "Charlotte Brontë",
+            "genre": "Gothic",
+            "year": 1847,
+            "available": true,
+            "image": "https://example.com/images/jane_eyre.jpg"
+          },
+          {
+            "id": 10,
+            "title": "The Odyssey",
+            "author": "Homer",
+            "genre": "Epic",
+            "year": -800,
+            "available": true,
+            "image": "https://example.com/images/the_odyssey.jpg"
+          },
+          {
+            "id": 11,
+            "title": "Crime and Punishment",
+            "author": "Fyodor Dostoevsky",
+            "genre": "Philosophical",
+            "year": 1866,
+            "available": false,
+            "image": "https://example.com/images/crime_and_punishment.jpg"
+          },
+          {
+            "id": 12,
+            "title": "The Brothers Karamazov",
+            "author": "Fyodor Dostoevsky",
+            "genre": "Philosophical",
+            "year": 1880,
+            "available": true,
+            "image": "https://example.com/images/the_brothers_karamazov.jpg"
+          },
+          {
+            "id": 13,
+            "title": "Wuthering Heights",
+            "author": "Emily Brontë",
+            "genre": "Gothic",
+            "year": 1847,
+            "available": true,
+            "image": "https://example.com/images/wuthering_heights.jpg"
+          },
+          {
+            "id": 14,
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "genre": "Dystopian",
+            "year": 1932,
+            "available": true,
+            "image": "https://example.com/images/brave_new_world.jpg"
+          },
+          {
+            "id": 15,
+            "title": "Fahrenheit 451",
+            "author": "Ray Bradbury",
+            "genre": "Dystopian",
+            "year": 1953,
+            "available": true,
+            "image": "https://example.com/images/fahrenheit_451.jpg"
+          }
+        ],
+      
+      
+          "admin":[
+            {
+              "Name": "Sanjay",
+              "Email": "sanjay2001@gmail.com",
+              "Password": "12345",
+              "id": "31d9"
+            }
+          ]
+           
+       
+}

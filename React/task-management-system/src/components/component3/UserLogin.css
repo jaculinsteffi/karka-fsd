@@ -4,11 +4,13 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: url("../../assets/abstract-orange-background-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color.jpg");
+    background-size: cover
 }
 Form legend{
     /* margin-top: 100px; */
     text-align: center;
-    color:  rgb(3, 184, 255);
+    color:  tomato;
     
 }
 
@@ -19,7 +21,7 @@ Form legend{
 .userlogin{
     width: 350px;
     height: 45px;
-    background-color:  rgb(26, 90, 5);
+    background-color:  tomato;
     /* border-radius: 60px; */
     margin-top: 10px;
     
@@ -29,19 +31,19 @@ Form legend{
     /* margin-left: 120px; */
     width: 350px;
     height: 45px;
-    background-color:  rgb(26, 90, 5);
+    background-color:  tomato;
     /* border-radius: 60px; */
 }
 
 .userlogin:hover{
-    background-color: lightgreen;
-    color: black;
+    background-color: white;
+    color: tomato;
     transition: 1s;
 }
 
 .userreg:hover{
-    background-color: lightgreen;
-    color: black;
+    background-color: white;
+    color: tomato;
     transition: 1s;
 }
 .useror{
@@ -63,6 +65,8 @@ Form legend{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: url("../../assets/abstract-orange-background-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color.jpg");
+    background-size: cover
 }
 .regusersection{
     display: flex;
@@ -72,13 +76,14 @@ Form legend{
 }
 legend{
     text-align: center;
-    color:  rgb(3, 184, 255);
+    color: black;
 }
 .regusersection input{
     width: 300px;
     height: 40px;
     border-radius: 60px ;
-    border: 1px solid grey;
+    color: tomato;
+    border: 1px solid tomato;
     /* text-indent: 10px; */
     padding: 20px 45px 20px 20px;
     
@@ -88,18 +93,20 @@ legend{
     border-radius: 60px;
     border: none;
     height: 40px;
-    background-color:rgb(3, 184, 255);
+    background-color:tomato;
     color: white;
 }
 .regusersection button:hover{
     background-color: lightgrey;
-    color:rgb(3, 184, 255);
+    color:tomato;
 }
 .userhead{
     display: flex;
     /* flex-direction: column; */
     justify-content: space-evenly;
-    color:rgb(3, 184, 255);
+    color:tomato;
+    
+    
 }
 
 .userhead2 {
@@ -108,8 +115,14 @@ legend{
     width: 60%;
     justify-content: flex-end;
     align-items: center;
+    
    
 }
+/* .body{
+    background-image: url(C:\Users\Hp\Documents\karka-fsd\React\task-management-system\src\assets\tiny-people-with-clock-checklist-target_74855-17924.jpg);
+    background-size: cover;
+    height: 100vh; 
+} */
 
 .userhead2 li {
     margin-left: 10px;
@@ -127,8 +140,8 @@ legend{
 
 }
 .usertab table thead{
-    border: 1px solid rgb(3, 184, 255);
-    background-color: rgb(4, 174, 241);
+    border: 1px solid Tomato;
+    background-color: Tomato;
     color: white;
 }
 .usertab table thead th{
@@ -137,7 +150,7 @@ legend{
     text-align: center;
 }
 .usertab table tbody td{
-    border: 1px solid rgb(2, 181, 252);
+    border: 1px solid tomato;
     padding: 10px;
     text-align: center;
     

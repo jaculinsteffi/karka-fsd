@@ -35,6 +35,7 @@ const Shopping=()=>{
                 <div>
                 <li>
                     {value}
+                    
                 </li>
                 </div>
                 <div>

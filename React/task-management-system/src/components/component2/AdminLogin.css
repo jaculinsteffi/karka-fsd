@@ -163,7 +163,7 @@ legend{
 .viewemployee{
       display: flex;
       align-items: center;
-      /* justify-content: center; */
+     
       flex-direction: column;
 }
 .viewemployeesection{
@@ -206,26 +206,26 @@ legend{
 .addprosection{
     width: 40%;
     
-    border: solid 1px blue;
+    border: solid 1px white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
-    color: blue;
+    color: tomato;
 }
 .addprosection h3{
     text-align: center;
 }
 .inp{
     margin: 15px;
-    color: blue;
+    color: tomato;
 }
 .inp input,.inp textarea{
     width: 460px;
-    color: blue;
-    border:1px solid blue;
+    color: tomato;
+    border:1px solid white;
 }
 .inp button{
     border: none;
-    background-color: blue;
+    background-color: tomato;
     color: white;
     height: 35px;
     border-radius: 6px;

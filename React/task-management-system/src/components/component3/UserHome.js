@@ -6,6 +6,7 @@ import UserProject from './UserProject';
 
 const UserHome = () => {
   return (
+    
     <div className='userhead'>
     <div className='userhead1'>
     
@@ -17,14 +18,14 @@ const UserHome = () => {
         <li>
 <NavItem>
     <NavLink to='/UserProject'
-    active href="#" style={{textDecoration : "none",color:" rgb(3, 184, 255)"}}
+    active href="#" style={{textDecoration : "none",color:" tomato"}}
     >
     My Projects
   </NavLink>
 </NavItem></li>
 <li>
 <NavItem>
-  <NavLink to='/' href="#" style={{textDecoration : "none",color:" rgb(3, 184, 255)"}}>
+  <NavLink to='/' href="#" style={{textDecoration : "none",color:" tomato"}}>
     
     LogOut
   </NavLink>
@@ -36,6 +37,8 @@ const UserHome = () => {
     </div>
    
   </div>
+  
+  
   )
 }
 

@@ -1,0 +1,27 @@
+
+    [
+    { "name" : "siva", "age" :25, "salary" : 20000},
+    { "name" : "jack", "age" :25, "salary" : 30000},
+    { "name" : "sajin", "age" :15, "salary" : 25000},
+    { "name" : "sivar", "age" :25, "salary" : 10000},
+    { "name" : "jacku", "age" :25, "salary" : 30000},
+    { "name" : "sajiney", "age" :15, "salary" : 25000},
+    { "name" : "indhu", "age" :25, "salary" : 20000},
+    { "name" : "indhuja", "age" :25, "salary" : 29000},
+    { "name" : "sanjay", "age" :15, "salary" : 30000},
+    { "name" : "alen", "age" :25, "salary" : 10000},
+    { "name" : "alaa", "age" :25, "salary" : 30000},
+    { "name" : "mahe", "age" :15, "salary" : 40000},
+    { "name" : "mahesh", "age" :25, "salary" : 15000},
+    { "name" : "ranju", "age" :25, "salary" : 30000},
+    { "name" : "ranjani", "age" :15, "salary" : 25000},
+    { "name" : "durga", "age" :25, "salary" : 10000},
+    { "name" : "jack", "age" :25, "salary" : 30000},
+    { "name" : "sajiney", "age" :15, "salary" : 25000},
+    { "name" : "indhu", "age" :25, "salary" : 20000},
+    { "name" : "indhuja", "age" :25, "salary" : 29000},
+    { "name" : "sanjay", "age" :15, "salary" : 30000},
+    { "name" : "alen", "age" :25, "salary" : 10000},
+    { "name" : "alaa", "age" :25, "salary" : 30000},
+    { "name" : "mahe", "age" :15, "salary" :40000}
+]

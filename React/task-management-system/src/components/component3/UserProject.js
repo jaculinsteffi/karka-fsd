@@ -1,101 +1,3 @@
-
-
-// import React, { useEffect, useState } from 'react';
-// import UserHome from './UserHome';
-// import axios from 'axios';
-// import { format } from 'date-fns';
-
-// const UserProject = () => {
-//   const [target, settarget] = useState([]);
-//   console.log(target)
-//   const [action,setaction]=useState({
-//               ProjectName: "",
-//               ProjectEmail: "",
-//               ProjectDescription: "",
-//               ProjectRequirement:"",
-//               ProjectDeadline: "",
-//               ProjectStatus:""
-//   })
-//   console.log(action)
-//   const currentuser = localStorage.getItem('currentUser');
- 
-//   const getuser = async () => {
-//     try {
-//       const response = await axios.get("http://localhost:3001/addproject");
-//       const projects = response.data;
-
-//       const userproject = projects.filter(project => project.ProjectEmail === currentuser);
-//       settarget(userproject);
-      
-//     } catch (err) {
-//       console.log(err);
-//     }
-//   };
-// const handleButton=(id)=>{
-//             setaction({
-//               ProjectName: target.ProjectName,
-//               ProjectEmail: target.ProjectEmail,
-//               ProjectDescription: target.ProjectDescription,
-//               ProjectRequirement: target.ProjectRequirement,
-//               ProjectDeadline: target.ProjectDeadline,
-//               ProjectStatus:"Completed"
-//             })
-// }
- 
-
-//   useEffect(() => {
-//     getuser();
-//   }, []);
-
-//   const date = new Date();
-//   const formatdate = format(date, 'dd-MM-yyyy');
-
-//   return (
-//     <div>
-//       <UserHome />
-//       <div>
-//         <h3 style={{ color: "white", textAlign: "center", backgroundColor: "skyblue" }}>My Project</h3>
-//         <div className='usertab'>
-//           <table>
-//             <thead>
-//               <tr>
-//                 <th>Project Id</th>
-//                 <th>Project Name</th>
-//                 <th>Project Email</th>
-//                 <th>Project Description</th>
-//                 <th>Project Requirement</th>
-//                 <th>Project Assign date</th>
-//                 <th>Project Deadline</th>
-//                 <th>Project Status</th>
-//               </tr>
-//             </thead>
-//             <tbody>
-//               {target.map((data, i) => (
-//                 <tr key={i}>
-//                   <td>{data.id}</td>
-//                   <td>{data.ProjectName}</td>
-//                   <td>{data.ProjectEmail}</td>
-//                   <td>{data.ProjectDescription}</td>
-//                   <td>{data.ProjectRequirement}</td>
-//                   <td>{formatdate}</td>
-//                   <td>{data.ProjectDeadline}</td>
-//                   <td>
-//                     <button onClick={() => handleButton(data.id)}>
-//                       {data.ProjectStatus}
-//                     </button>
-//                   </td>
-//                 </tr>
-//               ))}
-//             </tbody>
-//           </table>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default UserProject;
-
 import React, { useEffect, useState } from 'react';
 import UserHome from './UserHome';
 import axios from 'axios';
@@ -103,27 +5,29 @@ import { format } from 'date-fns';
 
 const UserProject = () => {
   const [target, setTarget] = useState([]);
+  console.log(target)
   const [currentStatus, setCurrentStatus] = useState({});
   const currentuser = localStorage.getItem('currentUser');
 
   const getuser = async () => {
     try {
-      const response = await axios.get("http://localhost:3001/addproject");
+      const response = await axios.get("http://localhost:3333/task/all");
       const projects = response.data;
-      const userproject = projects.filter(project => project.ProjectEmail === currentuser);
-      setTarget(userproject);
+      setTarget(projects)
+      // const userproject = projects.filter(project => project.projectemail === currentuser);
+      // setTarget(userproject);
     } catch (err) {
       console.log(err);
     }
   };
 
-  const handleButton = async (id, currentStatus) => {
+  const handleButton = async (_id, currentStatus) => {
     try {
       const newStatus = currentStatus === "Pending" ? "Completed" : "Pending";
-      await axios.patch(`http://localhost:3001/addproject/${id}`, { ProjectStatus: newStatus });
+      await axios.post(`http://localhost:3333/task/edit`, {_id, projectstatus: newStatus });
       setTarget(prevState =>
         prevState.map(project =>
-          project.id === id ? { ...project, ProjectStatus: newStatus } : project
+          project._id === _id ? { ...project, projectstatus: newStatus } : project
         )
       );
     } catch (err) {
@@ -136,16 +40,16 @@ const UserProject = () => {
   }, []);
 
   const date = new Date();
-  const formatdate = format(date, 'dd-MM-yyyy');
+  const formatdate = format(date, 'yyyy-MM-dd');
 
   return (
     <div>
       <UserHome />
       <div>
-        <h3 style={{ color: "white", textAlign: "center", backgroundColor: "skyblue" }}>My Project</h3>
+        <h3 style={{ color: "tomato", textAlign: "center", backgroundColor: "white" }}>My Project</h3>
         <div className='usertab'>
           <table>
-            <thead>
+            <thead >
               <tr>
                 <th>Project Id</th>
                 <th>Project Name</th>
@@ -157,19 +61,19 @@ const UserProject = () => {
                 <th>Project Status</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody >
               {target.map((data, i) => (
                 <tr key={i}>
-                  <td>{data.id}</td>
-                  <td>{data.ProjectName}</td>
-                  <td>{data.ProjectEmail}</td>
-                  <td>{data.ProjectDescription}</td>
-                  <td>{data.ProjectRequirement}</td>
+                  <td>{i+1}</td>
+                  <td>{data.projectname}</td>
+                  <td>{data.projectemail}</td>
+                  <td>{data.projectdescription}</td>
+                  <td>{data.projectrequirement}</td>
                   <td>{formatdate}</td>
-                  <td>{data.ProjectDeadline}</td>
+                  <td>{data.projectdeadline}</td>
                   <td>
-                    <button className='button2' onClick={() => handleButton(data.id, data.ProjectStatus)}>
-                      {data.ProjectStatus}
+                    <button className='button2' onClick={() => handleButton(data._id, data.projectstatus)}>
+                      {data.projectstatus}
                     </button>
                   </td>
                 </tr>

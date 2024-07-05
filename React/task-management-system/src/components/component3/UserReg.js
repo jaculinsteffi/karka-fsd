@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import '../component3/UserLogin.css'
 import {  useNavigate } from 'react-router-dom'
 
@@ -6,64 +6,59 @@ import axios from 'axios'
 
 const UserReg = () => {
     const navi=useNavigate()
-    // const [regjsonData,setregjsonData]=useState([])
     const[Reg,setReg]=useState({
-        Name:"",
-        Email:"",
-        Password:"",
-        Confirm:""
+        name:"",
+        email:"",
+        password:"",
+        role:""
 
     })
     const handleReg=(e)=>{
         setReg({...Reg,[e.target.name]:e.target.value})
-
+ 
     }
  
-    const handleRegsubmit=()=>{
-        if(Reg.Password===Reg.Confirm && Reg.Name!=="" && Reg.Email !=="" && Reg.Password!==""){
-                navi('/UserLogin')
-        }
-        else{
-            alert("Password doesn't match or please fill the details")
-        }
-        const newreg=async()=>{
-            const newitem={
-                ...Reg,
-                Name:Reg.Name,
-                Email:Reg.Email,
-                Password:Reg.Password,
-                Confirm:Reg.Confirm
+    const handleRegsubmit = async () => {
+        if (Reg.role !== "" && Reg.name !== "" && Reg.email !== "" && Reg.password !== "") {
+            try {
+                const response = await axios.post('http://localhost:3333/user/register', Reg);
+                navi('/UserLogin');
+               
+            } catch (error) {
+                console.error("Error during registration: ", error);
+                if (error.response && error.response.data && error.response.data.message) {
+                    alert(error.response.data.message);
+                } else {
+                    alert("Registration failed. Please try again.");
+                }
             }
-            try{
-                const newResponse=await axios.post(`http://localhost:3001/data`,newitem)
-                setReg(newResponse)
-            } 
-            catch(e){
-                console.log(e)
-            }
+            setReg({
+                name:"",
+                email:"",
+                password:"",
+                role:""
+            })
+        } else {
+            alert("All fields are required");
         }
-        newreg()
-        
+       
     }
-    // useEffect(()=>{
-    //     handleRegsubmit()
-    // })
     
   return (
     <div className='regusermain'>
     <div className='regusersection'>
         <legend>Register</legend>
     <div>
-        <input placeholder='Enter Your Name' name='Name' value={Reg.Name} onChange={handleReg} required/>
+        <input placeholder='Enter Your Name' name='name' value={Reg.name} onChange={handleReg} required/>
     </div>
     <div>
-        <input placeholder='Enter Your Email' name='Email' value={Reg.Email} onChange={handleReg} required/>
+        <input placeholder='Enter Your Email' name='email' value={Reg.email} onChange={handleReg} required/>
     </div>
     <div>
-        <input placeholder='Set Password' name='Password' value={Reg.Password} onChange={handleReg} required/>
+        <input placeholder='Set Password' name='password' value={Reg.password} onChange={handleReg} required/>
     </div>
     <div>
-        <input placeholder='Confirm Password' name='Confirm' value={Reg.Confirm} onChange={handleReg} required/>
+        <input placeholder='Role' name='role' value={Reg.role} onChange={handleReg} required/>
     </div>
     <button onClick={handleRegsubmit}>Submit</button>
 
@@ -71,5 +66,6 @@ const UserReg = () => {
   </div>
   )
 }
+
 
 export default UserReg

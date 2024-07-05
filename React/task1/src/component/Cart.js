@@ -26,4 +26,4 @@ const Product=({myProduct})=>{
         
     )
 }
-export default Product
+export default Product 

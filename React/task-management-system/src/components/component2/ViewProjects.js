@@ -18,7 +18,7 @@ const ViewProjects = () => {
 
   const get =async()=>{
     try{
-      const res=await axios.get("http://localhost:3001/addproject")
+      const res=await axios.get("http://localhost:3333/task/all")
       console.log(res.data)
       setGetData(res.data)
       setfilterdata(res.data)
@@ -34,15 +34,23 @@ const ViewProjects = () => {
 
   },[])
   const date=new Date()
-  const formatdate=format(date,'dd-MM-yyyy')
+  const formatdate=format(date,'yyyy-MM-dd')
   const handlesearch=(event)=>{
-          setsearch(event.target.value)
-          const filter= GetData.filter(item=>item.ProjectName.toLowerCase().includes(search.toLowerCase()) ||
-  item.ProjectEmail.toLowerCase().includes(search.toLowerCase())
-
-)
-setfilterdata(filter)
+    const value=event.target.value
+          setsearch(value)
+          if(value===""){
+            setfilterdata(GetData)
+          }
+          else{
+            const filter= GetData.filter(item=>item.projectname.toLowerCase().includes(value.toLowerCase()) ||
+            item.projectemail.toLowerCase().includes(value.toLowerCase())
+          
+          )
+          setfilterdata(filter)
+          }
+        
 }
+
 
 return (
     <div>
@@ -73,13 +81,13 @@ return (
             <tbody>
                 <>
                 {filterdata.map((item,i)=>(
-                <tr><td>{item.ProjectName}</td>
-                <td>{item.ProjectEmail}</td>
-                <td>{item.ProjectDescription}</td>
-                <td>{item.ProjectRequirement}</td>
-                <td>{formatdate}</td>
-                <td>{item.ProjectDeadline}</td>
-                <td><button>{item.ProjectStatus}</button></td>
+                <tr><td>{item.projectname}</td>
+                <td>{item.projectemail}</td>
+                <td>{item.projectdescription}</td>
+                <td>{item.projectrequirement}</td>
+                <td>{formatdate}</td> 
+                <td>{item.projectdeadline}</td>
+                <td><button>{item.projectstatus}</button></td>
                
                 </tr>
                  

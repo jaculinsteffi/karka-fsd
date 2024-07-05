@@ -1,0 +1,12 @@
+.main{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: auto;
+  margin-top: 150px;
+}
+.navbar-toggler-icon{
+  color: black !important;
+}
+

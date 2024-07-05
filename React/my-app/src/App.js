@@ -3,6 +3,7 @@ import './App.css';
 import Welcome from './Components/Welcome';
 // import Button from './Components/Button'
 import Image from './images/8-free-React-app-hosting-services-Cover (1).png'
+import Task from './Components/Task'
 function App() {
   // const add=()=>{
   //   console.log("hi")
@@ -14,10 +15,11 @@ function App() {
   }
   return (
     <div className="App">
+      <Task/>
      
-          <Welcome/>
-          <img src={Image} alt="Image"/>
-          <h1>Welcome to {obj.name}'s page,and my age is{obj.age}</h1>
+          {/* <Welcome/> */}
+          {/* <img src={Image} alt="Image"/> */}
+          {/* <h1>Welcome to {obj.name}'s page,and my age is{obj.age}</h1> */}
           
       
     </div>

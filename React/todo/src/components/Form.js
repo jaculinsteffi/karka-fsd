@@ -26,7 +26,7 @@ const Todo = () => {
       setInputValue('');
     }
   };
-
+ 
   const handleDelete = (index) => {
     const updatedItems = [...items];
     updatedItems.splice(index, 1);
